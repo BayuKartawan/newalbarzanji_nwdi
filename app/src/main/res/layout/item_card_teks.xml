@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/latar_card_teks"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/card_teks_on"
+        style="@style/CardTeks"
+        android:fontFamily="@font/scheherazadenew_medium"
+        android:text="@string/card_teksarab"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/card_teks_off"
+        style="@style/CardTeks"
+        android:text="@string/card_teksindo"
+        android:textSize="16sp" />
+
+</LinearLayout>

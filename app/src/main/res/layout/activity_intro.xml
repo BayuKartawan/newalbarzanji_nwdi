@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    style="@style/layout_heigh_width_mm"
+    tools:context=".IntroActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/firstConstraintLayout"
+        style="@style/intro_framelayout"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <FrameLayout
+            style="@style/intro_framelayout"
+            android:background="@drawable/bg_intro_1"
+            android:elevation="2dp"
+            app:layout_constraintHeight_percent="0.8"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:contentDescription="@string/logo_nwdi"
+            android:elevation="4dp"
+            android:src="@drawable/logo_nwdi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/centerLinearLayout"
+        style="@style/intro_framelayout"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/secondRelativeLayout"
+        app:layout_constraintTop_toBottomOf="@id/firstConstraintLayout"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            style="@style/layout_heigh_width_ww"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/scheherazadenew_medium"
+                android:text="@string/string_intro_judularab"
+                android:textAlignment="center"
+                android:textColor="@color/hijau"
+                android:textSize="40sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondRelativeLayout"
+        style="@style/intro_framelayout"
+        android:background="@drawable/bg_intro_2"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintTop_toBottomOf="@id/centerLinearLayout"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            style="@style/style_intro_footerbawah"
+            android:text="@string/string_intro_judulindo"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/style_intro_footerbawah"
+            android:text="@string/string_intro_dekorasi"
+            android:textSize="30sp" />
+
+        <TextView
+            style="@style/style_intro_footerbawah"
+            android:paddingBottom="50dp"
+            android:text="@string/string_intro_develop"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

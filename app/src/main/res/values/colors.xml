@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hijau">#067404</color>
+    <color name="w_button">#F4F4F4</color>
+
+    <!--  Color Tombol  -->
+    <color name="hijau_tombol2">#F8E4B7</color>
+    <color name="hijau_tombol1">#FFF6E1</color>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:icon="@drawable/icon_itemmenu"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle">
+
+        <menu>
+            <item android:title="" />
+            <item
+                android:id="@+id/menu_baca_panduan"
+                android:title="@string/item_bacapanduan" />
+            <item
+                android:id="@+id/menu_items_daftarisi_qiroatul"
+                android:title="@string/item_bacaqiroatul" />
+            <item
+                android:id="@+id/menu_items_daftarisi_sholawatnahdlatain"
+                android:title="@string/item_bacanahdlatain" />
+            <item
+                android:id="@+id/menu_items_daftarisi_sholawatfatih"
+                android:title="@string/item_bacasfatih" />
+            <item
+                android:id="@+id/menu_items_daftarisi_albarzanji"
+                android:title="@string/item_bacaalbarzanji" />
+            <item
+                android:id="@+id/menu_items_daftarisi_tholaalbadru"
+                android:title="@string/item_bacatolaal" />
+            <item
+                android:id="@+id/menu_items_daftarisi_iilahitam"
+                android:title="@string/item_bacaiilahitam" />
+            <item
+                android:id="@+id/menu_items_daftarisi_sholawatbadriah"
+                android:title="@string/item_bacasbadriah" />
+            <item
+                android:id="@+id/menu_items_daftarisi_doadoa"
+                android:title="@string/item_bacadoadoa" />
+        </menu>
+    </item>
+
+</menu>

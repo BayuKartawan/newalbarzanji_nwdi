@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_heigh_width_mm"
+    android:orientation="vertical"
+    tools:context=".lagu.LaguTanawwaromaFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/toolbar_global"
+        app:title="@string/toolbar_lagutanawwaroma" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_lagu_tanawwaroma"
+        style="@style/layout_heigh_width_mm" />
+
+</LinearLayout>

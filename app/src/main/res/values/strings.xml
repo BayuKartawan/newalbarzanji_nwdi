@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Maulid Al Barzanji\n &amp; Lagu Perjuangan NW</string>
+    <!--  jagan pakai ( ' ) langsung  -->
+
+    <!--  STRING INTROO  -->
+    <string name="logo_nwdi">logo nwdi</string>
+    <string name="string_intro_judularab">مولد البرزنجي\n*والأناشيد النهضية*</string>
+    <string name="string_intro_judulindo">Maulid AL Barzanji dan\nLagu Lagu Perjuangan NW</string>
+    <string name="string_intro_dekorasi">***</string>
+    <string name="string_intro_develop">Design &amp; Developed by Bayu Kartawan\n- 2024 -</string>
+
+    <!--  Baca Fragmen dan item  -->
+    <!-- <string name=""></string> -->
+
+    <!--  Daftar isi Fragment -->
+    <!-- <string name=""></string> -->
+
+    <!--  Lagu Fragment -->
+    <!-- <string name=""></string> -->
+
+    <!--  Tentang Fragment -->
+    <string name="tentang_trakteer">Trakteer Kopi ☕</string>
+
+    <!--  Toolbar -->
+    <!--  Toolbar Baca  -->
+    <string name="toolbar_baca">Baca Al-Barzanji</string>
+    <string name="toolbar_daftar">Daftar Isi</string>
+    <string name="toolbar_lagu">Lagu Perjuangan</string>
+    <string name="toolbar_tentang">Tentang Aplikasi</string>
+    <!--  Toolbar Daftar Isi  -->
+    <string name="toolbar_daftaralbarzanji">Maulid Al-Barzanji</string>
+    <string name="toolbar_daftardoadoa">Doa Penutup</string>
+    <string name="toolbar_daftardoapusaka">Doa Pusaka</string>
+    <string name="toolbar_daftariilahitam">Iilahitam</string>
+    <string name="toolbar_daftarilillahizainuddin">Lillahi Zainuddin</string>
+    <string name="toolbar_daftarqiroatul">Qiroatul Fatihah</string>
+    <string name="toolbar_daftarsholawatbadriah">Sholawat Badriah</string>
+    <string name="toolbar_daftarsholawatfatih">Sholawat Fatih</string>
+    <string name="toolbar_daftarsholawatnahdlatain">Sholawat Nahdlatain</string>
+    <string name="toolbar_daftaryaasin">Surah YaaSin</string>
+    <string name="toolbar_daftartholaal">Tholaal Badru</string>
+    <!--  Toolbar Lagu  -->
+    <string name="toolbar_laguahlan">Ahlan Biwaf</string>
+    <string name="toolbar_laguantiya">Antiyaa Pancor</string>
+    <string name="toolbar_lagubersatu">Bersatu Haluan</string>
+    <string name="toolbar_laguhayya">Ya Fata Sasak</string>
+    <string name="toolbar_lagumarsmahad">Mars Mah\u0027ad</string>
+    <string name="toolbar_lagumarsnw">Mars NW</string>
+    <string name="toolbar_lagumarsnwdi">Mars NWDI</string>
+    <string name="toolbar_lagunahdlatin">Nahdlatain</string>
+    <string name="toolbar_lagunwdidaiman">NWDI Daiman Abada</string>
+    <string name="toolbar_laguobatsakit">Obat Sakit Jahil</string>
+    <string name="toolbar_lagutanawwaroma">Tanawwaroma</string>
+    <string name="toolbar_laguyadzaljala">Yaa Dzal Jala</string>
+
+    <!--  Menu  -->
+    <!--  button_nav  -->
+    <string name="item_navbaca">Baca</string>
+    <string name="item_navdaftarisi">Daftar Isi</string>
+    <string name="item_navlagu">Lagu</string>
+    <string name="item_navtentang">Tentang</string>
+    <!--  toolbar_menu  -->
+    <string name="item_bacapanduan">Panduan</string>
+    <string name="item_bacaqiroatul">Qiroatul</string>
+    <string name="item_bacanahdlatain">Sholawat Nahdlatain</string>
+    <string name="item_bacasfatih">Sholawat Fatih</string>
+    <string name="item_bacaalbarzanji">Al-Barzanji\n(Aljannatu)</string>
+    <string name="item_bacatolaal">Tholaal Badru</string>
+    <string name="item_bacaiilahitam">Iilahitam</string>
+    <string name="item_bacasbadriah">Sholawat Badriah</string>
+    <string name="item_bacadoadoa">Doa-Doa</string>
+    <!--  toolbar_search  -->
+    <string name="item_daftarcari">Cari</string>
+    <!--  toolbar_play  -->
+    <string name="item_playmusik">play</string>
+    <!--  toolbar_tentang  -->
+    <string name="item_tentangchat">chat</string>
+
+    <!--  Card Teks  -->
+    <string name="card_teksarab">لِسَبِّدِنَا</string>
+    <string name="card_teksindo">Contok Tulisan</string>
+</resources>

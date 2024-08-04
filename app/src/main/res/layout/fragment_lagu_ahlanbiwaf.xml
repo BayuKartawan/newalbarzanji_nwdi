@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_heigh_width_mm"
+    android:orientation="vertical"
+    tools:context=".lagu.LaguAhlanbiwafFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_lagu_ahlan"
+        style="@style/toolbar_global"
+        app:menu="@menu/toolbar_play"
+        app:title="@string/toolbar_laguahlan" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_lagu_ahlanbiwaf"
+        style="@style/layout_heigh_width_mm" />
+
+</LinearLayout>
