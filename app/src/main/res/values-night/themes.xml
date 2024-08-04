@@ -5,22 +5,37 @@
     <!--        &lt;!&ndash; Customize your dark theme here. &ndash;&gt;-->
     <!--        &lt;!&ndash; <item name="colorPrimary">@color/my_dark_primary</item> &ndash;&gt;-->
     <!--    </style>-->
-    <style name="Base.Theme.NewAlBarzanji" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Base.Theme.NewAlBarzanji" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-<!--         <item name="colorPrimary">@color/my_dark_primary</item>-->
-        <item name="android:windowFullscreen">true</item>
+        <!--        <item name="android:windowFullscreen">true</item>-->
+        <item name="android:statusBarColor">@color/black</item>
     </style>
 
-    <!--  Card Tentang  -->
-<!--    <style name="CardTentang">-->
-<!--        <item name="android:layout_height">50dp</item>-->
-<!--        <item name="android:layout_width">match_parent</item>-->
-<!--        <item name="android:background">@color/black</item>-->
-<!--        <item name="android:textColor">@color/white</item>-->
-<!--        <item name="android:padding">10dp</item>-->
-<!--        <item name="android:layout_margin">10dp</item>-->
-<!--        <item name="android:textSize">16sp</item>-->
-<!--    </style>-->
+    <style name="card_view_teks">
+        <item name="strokeWidth">0.5dp</item>
+        <item name="strokeColor">#5C5C5C</item>
+    </style>
 
+    <!--    Card Teks-->
+    <style name="CardTeks">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:justificationMode">inter_word</item>
+    </style>
+
+    <!--  style toolbar  -->
+    <style name="toolbar_global">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="titleTextAppearance">@style/ToolbarTittleTextAppearance</item>
+    </style>
+
+    <!--    navbar-->
+    <style name="navbarstyle">
+        <item name="itemIconTint">@color/nav_item_color_selectornight</item>
+    </style>
 
 </resources>

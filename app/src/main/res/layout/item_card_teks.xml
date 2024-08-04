@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/latar_card_teks"
-    android:orientation="vertical">
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    style="@style/card_view_teks"
+    app:cardCornerRadius="0dp">
 
-    <TextView
-        android:id="@+id/card_teks_on"
-        style="@style/CardTeks"
-        android:fontFamily="@font/scheherazadenew_medium"
-        android:text="@string/card_teksarab"
-        android:textSize="26sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/card_teks_off"
-        style="@style/CardTeks"
-        android:text="@string/card_teksindo"
-        android:textSize="16sp" />
+        <TextView
+            android:id="@+id/card_teks_on"
+            style="@style/CardTeks"
+            android:fontFamily="@font/scheherazadenew_medium"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/card_teksarab"
+            android:textSize="26sp" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/card_teks_off"
+            style="@style/CardTeks"
+            android:text="@string/card_teksindo"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

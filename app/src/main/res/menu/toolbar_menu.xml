@@ -8,7 +8,6 @@
         tools:ignore="MenuTitle">
 
         <menu>
-            <item android:title="" />
             <item
                 android:id="@+id/menu_baca_panduan"
                 android:title="@string/item_bacapanduan" />

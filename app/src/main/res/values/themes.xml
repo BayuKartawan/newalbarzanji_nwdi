@@ -1,9 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.NewAlBarzanji" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowFullscreen">true</item>
+    <style name="Base.Theme.NewAlBarzanji" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--        <item name="android:windowFullscreen">true</item>-->
+        <item name="android:statusBarColor">@color/hijau</item>
     </style>
 
     <style name="Theme.NewAlBarzanji" parent="Base.Theme.NewAlBarzanji" />
+
+    <style name="card_view_teks">
+        <item name="strokeWidth">0.5dp</item>
+        <item name="strokeColor">@color/hijau_tombol2</item>
+    </style>
+
+    <!--    navbar-->
+    <style name="navbarstyle">
+        <item name="itemIconTint">@color/nav_item_color_selector</item>
+    </style>
 
 </resources>
