@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+
     style="@style/layout_heigh_width_mm"
     tools:context=".IntroActivity">
 
@@ -52,7 +53,7 @@
                 android:fontFamily="@font/scheherazadenew_medium"
                 android:text="@string/string_intro_judularab"
                 android:textAlignment="center"
-                android:textColor="@color/hijau"
+                style="@style/color_font_theme"
                 android:textSize="40sp"
                 tools:ignore="HardcodedText" />
         </LinearLayout>
@@ -76,9 +77,16 @@
             android:textSize="20sp" />
 
         <TextView
-            style="@style/style_intro_footerbawah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/scheherazadenew_medium"
             android:text="@string/string_intro_dekorasi"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            tools:ignore="InefficientWeight" />
 
         <TextView
             style="@style/style_intro_footerbawah"

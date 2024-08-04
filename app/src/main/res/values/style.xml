@@ -13,14 +13,13 @@
     </style>
 
     <style name="BottomNavigationTextAppearance" parent="TextAppearance.AppCompat.Medium">
-        <item name="fontFamily">@font/playfairdisplay_regular</item>
         <item name="android:textSize">13sp</item>
-        <item name="android:titleMarginTop">20dp</item>
     </style>
 
     <style name="ToolbarTittleTextAppearance" parent="TextAppearance.AppCompat.Medium">
         <item name="fontFamily">@font/playfairdisplay_medium</item>
         <item name="android:textSize">16sp</item>
+
     </style>
 
     <!-- Style ini saya gunakan di navigasi bar, jika tombol active-->
@@ -55,7 +54,6 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
-        <item name="android:fontFamily">@font/playfairdisplay_bold</item>
         <item name="android:gravity">center</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/white</item>
@@ -89,8 +87,6 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">40dp</item>
         <item name="android:background">@color/hijau</item>
-        <item name="android:paddingEnd">20dp</item>
-        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
         <item name="titleTextColor">@color/white</item>
         <item name="titleTextAppearance">@style/ToolbarTittleTextAppearance</item>
     </style>

@@ -50,7 +50,7 @@ class TentangFragment : Fragment() {
         // Handle ImageButton click
         val chatButton: ImageButton = view.findViewById(R.id.tentang_chat)
         chatButton.setOnClickListener {
-            val intent = Intent(activity, ChatActivity::class.java)
+            val intent = Intent(activity, SettingActivity::class.java)
             startActivity(intent)
         }
     }

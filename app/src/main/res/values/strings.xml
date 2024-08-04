@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">Maulid Al Barzanji\n &amp; Lagu Perjuangan NW</string>
+    <string name="app_name">Maulid Al Barzanji\n &amp; Lagu Perjuangan NW dan NWDI</string>
     <!--  jagan pakai ( ' ) langsung  -->
 
     <!--  STRING INTROO  -->
     <string name="logo_nwdi">logo nwdi</string>
-    <string name="string_intro_judularab">مولد البرزنجي\n*والأناشيد النهضية*</string>
+    <string name="string_intro_judularab">مولد البرزنجي\n* والأناشيد النهضية *</string>
     <string name="string_intro_judulindo">Maulid AL Barzanji dan\nLagu Lagu Perjuangan NW</string>
     <string name="string_intro_dekorasi">***</string>
-    <string name="string_intro_develop">Design &amp; Developed by Bayu Kartawan\n- 2024 -</string>
+    <string name="string_intro_develop">Design &amp; Developed by Bayu Kartawan\n2024</string>
 
     <!--  Baca Fragmen dan item  -->
     <!-- <string name=""></string> -->

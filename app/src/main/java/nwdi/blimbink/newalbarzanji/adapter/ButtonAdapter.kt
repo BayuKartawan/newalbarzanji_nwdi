@@ -3,12 +3,12 @@ package nwdi.blimbink.newalbarzanji.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
+import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import nwdi.blimbink.newalbarzanji.R
 
 class ButtonAdapter(
-
     private val items: List<String>,
     private val onItemClick: (String) -> Unit
 ) : RecyclerView.Adapter<ButtonAdapter.ButtonViewHolder>() {
@@ -21,13 +21,14 @@ class ButtonAdapter(
 
     override fun onBindViewHolder(holder: ButtonViewHolder, position: Int) {
         val item = items[position]
-        holder.button.text = item
-        holder.button.setOnClickListener { onItemClick(item) }
+        holder.textView.text = item
+        holder.cardView.setOnClickListener { onItemClick(item) }
     }
 
     override fun getItemCount() = items.size
 
     class ButtonViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val button: Button = view.findViewById(R.id.button_item)
+        val cardView: CardView = view.findViewById(R.id.card_view_item)
+        val textView: TextView = view.findViewById(R.id.button_item)
     }
 }

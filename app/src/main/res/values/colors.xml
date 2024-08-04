@@ -4,6 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="hijau">#067404</color>
     <color name="w_button">#F4F4F4</color>
+    <color name="mode_malam">#0B141B</color>
+    <color name="mode_siang">#F4F4F4</color>
 
     <!--  Color Tombol  -->
     <color name="hijau_tombol2">#F8E4B7</color>
