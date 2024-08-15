@@ -7,6 +7,10 @@
 
     <style name="Theme.NewAlBarzanji" parent="Base.Theme.NewAlBarzanji" />
 
+    <style name="card_view_teks">
+        <item name="strokeWidth">0.5dp</item>
+        <item name="strokeColor">@color/hijau_tombol2</item>
+    </style>
 
     <!--    navbar-->
     <style name="navbarstyle">
@@ -17,18 +21,5 @@
     <!--    warna font -->
     <style name="color_font_theme">
         <item name="android:textColor">@color/hijau</item>
-    </style>
-
-    <!-- Theme background -->
-    <style name="theme_color_backgroundTeks">
-        <item name="android:background">@color/mode_siang</item>
-    </style>
-    <style name="theme_color_backgroundStroke">
-        <item name="android:background">#F8E4B7</item>
-    </style>
-
-    <!-- Theme background tombol -->
-    <style name="theme_color_backgroundTombol">
-        <item name="cardBackgroundColor">@color/white</item>
     </style>
 </resources>
