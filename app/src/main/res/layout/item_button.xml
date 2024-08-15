@@ -4,44 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="2dp"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:paddingStart="17dp"
+    android:paddingEnd="17dp">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view_item"
+        style="@style/theme_color_backgroundTombol"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:foreground="?attr/selectableItemBackground"
-        android:background="@color/black"
+        android:layout_margin="5dp"
         android:clickable="true"
-        app:cardElevation="4dp"
-        app:cardCornerRadius="8dp"
-        tools:ignore="TouchTargetSizeCheck">
-
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        tools:ignore="KeyboardInaccessibleWidget,TouchTargetSizeCheck">
 
         <TextView
             android:id="@+id/button_item"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:text="asasas" />
+            android:layout_margin="13dp"
+            android:text="asasas"
+            android:textAlignment="viewStart" />
 
     </androidx.cardview.widget.CardView>
-
-    <!--    <Button-->
-    <!--        android:id="@+id/button_item"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        android:background="@drawable/latar_button"-->
-    <!--        android:fontFamily="@font/playfairdisplay_medium"-->
-    <!--        android:paddingStart="10dp"-->
-    <!--        android:paddingEnd="10dp"-->
-    <!--        android:stateListAnimator="@null"-->
-    <!--        android:text="Qiroatul Fatihah"-->
-    <!--        android:textAlignment="textStart"-->
-    <!--        android:textAllCaps="false"-->
-    <!--        android:textSize="16sp"-->
-    <!--        tools:ignore="ButtonStyle,VisualLintButtonSize" />-->
 
 </LinearLayout>

@@ -41,8 +41,9 @@ class LaguFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
         // Menyembunyikan btn_toggle_nav di DaftarIsiFragment
-        (activity as? MainActivity)?.setBtnToggleNavVisibility(View.GONE)
+//        (activity as? MainActivity)?.setBtnToggleNavVisibility(View.GONE)
 
         recyclerView = view.findViewById(R.id.recycler_view_lagu)
         recyclerView.layoutManager = LinearLayoutManager(context)

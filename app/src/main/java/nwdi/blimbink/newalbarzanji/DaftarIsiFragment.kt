@@ -42,7 +42,8 @@ class DaftarIsiFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         // Menyembunyikan btn_toggle_nav di DaftarIsiFragment
-        (activity as? MainActivity)?.setBtnToggleNavVisibility(View.GONE)
+//        (activity as? MainActivity)?.setBtnToggleNavVisibility(View.GONE)
+
 
         recyclerView = view.findViewById(R.id.recycler_view)
         recyclerView.layoutManager = LinearLayoutManager(context)

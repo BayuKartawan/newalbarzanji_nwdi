@@ -12,10 +12,6 @@
 
     <!-- layout intro -->
 
-    <style name="card_view_teks">
-        <item name="strokeWidth">0.5dp</item>
-        <item name="strokeColor">#5C5C5C</item>
-    </style>
 
     <!--    Card Teks-->
     <style name="CardTeks">
@@ -40,4 +36,16 @@
         <item name="android:background">@color/mode_malam</item>
     </style>
 
+    <!-- Theme background teks -->
+    <style name="theme_color_backgroundTeks">
+        <item name="android:background">@color/mode_malam</item>
+    </style>
+    <style name="theme_color_backgroundStroke">
+        <item name="android:background">#6153B9</item>
+    </style>
+
+    <!-- Theme background tombol -->
+    <style name="theme_color_backgroundTombol">
+        <item name="cardBackgroundColor">#182D3D</item>
+    </style>
 </resources>

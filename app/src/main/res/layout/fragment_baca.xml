@@ -9,7 +9,6 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar_baca"
         style="@style/toolbar_global"
-        android:layout_width="match_parent"
         app:menu="@menu/toolbar_menu">
 
         <RelativeLayout
