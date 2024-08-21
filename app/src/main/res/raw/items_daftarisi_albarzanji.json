@@ -1,10 +1,10 @@
 [
   {
-    "textOn": "۞*** مولد البرزنجى نظم ***۞",
+    "textOn": "۞ مولد البرزنجى نظم ۞",
     "textOff": "Nazom Maulid Al-Barzanji"
   },
   {
-    "textOn": "~ سُبَحَانَ اللهِ وَبِحَمْدِهٖ ~",
+    "textOn": "** سُبَحَانَ اللهِ وَبِحَمْدِهِ **",
     "textOff": ""
   },
   {
@@ -19,17 +19,17 @@
   },
   {
     "no": "3",
-    "textOn": "بَدَأْتُ بِاسْمِ الذَّاتِ عَالِيَةَ الشَّانِ  *\nبِهَا مَسْتَدِرًّا فَيْضَ جُوْدٍ وَ إِحْسَانٍ",
+    "textOn": "بَدَأْتُ بِإِسْمِ الذَّاتِ عَالِيَةَ الشَّانِ  *\nبِهَا مَسْتَدِرًّا فَيْضَ جُوْدٍ وَ إِحْسَانٍ",
     "textOff": "Aku memulai dengan Nama Dzat yang Maha Tinggi dan menguasai setiap perkara. Dengan-Nya pula aku memohon limpahan karunia dan kebaikan dari Yang Maha Pemberi segala"
   },
   {
     "no": "4",
-    "textOn": "وَ ثَنَّيْتُ بِالْحَمْدِ الْهَنِيِّ مَوَارِدَ *\nمَعَ الشُّكْرِ لِلْمَوْلٰى بِمَا مِنْهُ أَوْلَانِيْ",
+    "textOn": "وَ ثَنَّيْتُ بِالْحَمْدِ الْهَنِيِّ مَوَارِدًا *\nمَعَ الشُّكْرِ لِلْمَوْلٰى بِمَا مِنْهُ أَوْلَانِيْ",
     "textOff": "Aku memuji dengan segala pujian dan kegembiraan yang tiada putusnya. Bersama segenap kesyukuran kepada Tuhan yang aku berserah diri hanya kepada-Nya"
   },
   {
     "no": "5",
-    "textOn": "وَ اَسْتَمْنِحُ اللهَ الْعَظِيْمَ نَوَالُهٗ *\nسِجَالَ صَلٰوةٍ مَعَ تَحِيَّةِ رِضْوَانِ",
+    "textOn": "وَ اَسْتَمْنِحُ اللهَ الْعَظِيْمَ نَوَالُهُ *\nسِجَالَ صَلٰوةٍ مَعَ تَحِيَّةِ رِضْوَانِ",
     "textOff": "Aku memohon kepada Allah yang Maha Agung atas segala anugerah-Nya. untuk menyampaikan shalawat dan penghormatan tertinggi serta keridhaan-Nya"
   },
   {
@@ -84,7 +84,7 @@
   },
   {
     "no": "16",
-    "textOn": "حَمَاهُ إِلٰهُ الْعَرْشِ مِنْ ظَهْرِ آدَمِ *\nإِلٰى صُلْبِ عَبْدِ اللهِ مِنْ رِجْسِ شَيْطَانِ",
+    "textOn": "حَمَاهُ إِلٰهُ الْعَرْشِ مِنْ ظَهْرِ أٓدَمٍ *\nإِلٰى صُلْبِ عَبْدِ اللهِ مِنْ رِجْسِ شَيْطَانِ",
     "textOff": "Tuhan Sang Pemilik 'Arsy telah memeliharanya dari titisan Adam sampai kepada rusuk Abdullah dari segala kebusukan tipu daya syaithan"
   },
   {
@@ -119,12 +119,12 @@
   },
   {
     "no": "23",
-    "textOn": "إِلٰى صُلْبِ عَبْدِ اللهِ ثُمَّ لِأُمِّهٖ\nوَ قَدْ أَصْبَحَا وَ اللهِ مِنْ أَهْلِ إِيْمَانِ",
+    "textOn": "إِلٰى صُلْبِ عَبْدِ اللهِ ثُمَّ لِأُمِّهِ\nوَ قَدْ أَصْبَحَ وَ اللهِ مِنْ أَهْلِ إِيْمَانِ",
     "textOff": "Sampai kepada tulang rusuk Abdullah kemudian kepada Ibundanya sehingga keduanya termasuk golongan orang-orang yang beriman lagi bertakwa"
   },
   {
     "no": "24",
-    "textOn": "وَ جَآءَ لِهْذَا فِى الْحَدِيْثِ شَوَاهِدُ *\nوَ مَالَ إِلَيْهِ الْجَمُّ مِنْ أَهْلِ عِرْفَانِ",
+    "textOn": "وَ جَآءَ لِهْذَا فِى الْحَدِيْثِ شَوَاهِدٌ *\nوَ مَالَ إِلَيْهِ الْجَمُّ مِنْ أَهْلِ عِرْفَانِ",
     "textOff": "Hal ini ditegaskan dalam beberapa hadits sebagai dalil serta sebagian besar ulama yang 'arif cenderung berpendapat demikianlah halnya"
   },
   {
@@ -144,7 +144,7 @@
   },
   {
     "no": "28",
-    "textOn": "وَ قَدْ شَاهَدَا مِنْ مُعْجِزَاتِ مُحَمَّدٍ *\nخَوَارِقَ آيَاتٍ تَلُوْحُ لِأَعْيَانِ",
+    "textOn": "وَ قَدْ شَاهَدَ مِنْ مُعْجِزَاتِ مُحَمَّدٍ *\nخَوَارِقَ آيَاتٍ تَلُوْحُ لِأَعْيَانِ",
     "textOff": "Sungguh keduanya telah menyaksikan banyak sekali mu'jizat Muhammad yang luar biasa bagi orang- orang yang mau merenungkannya."
   },
   {
@@ -169,7 +169,7 @@
   },
   {
     "no": "33",
-    "textOn": "وَ فَاضَ مَعِيْنٌ فِيْ سَمَاوَةِ لَمْ يَكُنْ *\nبِهٖ قَبْلُ مَآءٌ يَنْقَعَنَّ لِظَمْاٰنِ",
+    "textOn": "وَ فَاضَ مَعِيْنٌ فِيْ سَمَاوَاتِ لَمْ يَكُنْ *\nبِهِ قَبْلُ مَآءٌ يَنْقَعَنَّ لِظَمْاٰنِ",
     "textOff": "Kemudian tercurahlah rahmat dari langit berupa turunnya hujan di bumi yang tandus menghilangkan dahaga dan membuatnya bersemi"
   },
   {
@@ -179,7 +179,7 @@
   },
   {
     "no": "35",
-    "textOn": "وَ خَرَّتْ لَهُ الشُّرُفَاتُ مِنْ شَامِخِ الْبِنَا *\nوَ بَاتَ مَرُوْعًا حَاسِيًا كَأْسَ أَحْزَانِ",
+    "textOn": "وَ خَرَّتْ لَهُ الشُّرْفَاتُ مِنْ شَامِخِ الْبِنَا *\nوَ بَاتَ مَرُوْعًا حَاسِيًا كَأْسَ أَحْزَانِ",
     "textOff": "Gugurlah keangkuhan dan kemegahan bangunannya dan jadilah ia luluh lantak menyisakan kesedihan bagi para penghuni"
   },
   {
@@ -239,7 +239,7 @@
   },
   {
     "no": "47",
-    "textOn": "وَ فِيْ كُلِّ شَهْرٍ تَمَّ مِنْ حَمْلِ أَحْمَدَ *\nلِإِظْهَارِهِ فِى الْكَوْنِ يَبْدُوْ نِدَاءَانِ",
+    "textOn": "وَ فِيْ كُلِّ شَهْرٍ تَمَّ مِنْ حَمْلِ أَحْمَدٍ *\nلِإِظْهَارِهِ فِى الْكَوْنِ يَبْدُوْ نِدَاءَانِ",
     "textOff": "Pada setiap bulan menjelang sempurnanya Rasulullah dalam kandungan ketika sempurna bentuk penciptaan muncullah dua buah panggilan membahana"
   },
   {
@@ -259,7 +259,7 @@
   },
   {
     "no": "51",
-    "textOn": "فَثِنْتَانِ مِنْ حُوْرِ الْجِنَانِ تَبَدَّتَا *\nوَ آسِيَةٌ مَعْ مَرْيَمَ بِنْتِ عِمْرَانَ",
+    "textOn": "فَثِنْتَانِ مِنْ حُوْرِ الْجِنَانِ تَبَدَّتَا *\nوَ آسِيَةٌ مَعْ مَرْيَمٍ بِنْتِ عِمْرَانَ",
     "textOff": "Dua diantara mereka adalah bidadari syurga yang menampakkan diri dalam wujud manusia bersama Asiyah (Istri Fir'aun) dan Ibunda Nabi Isa as Maryam Binti Imran"
   },
   {
@@ -276,8 +276,5 @@
     "no": "54",
     "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهٗ وَ ضَرِيْحَهٗ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ ~",
     "textOff": "Ya Tuhanku, Karuniakanlah kesejahteraan kepada ruh dan jasad Nabi Muhammad SAW dengan harum melebihi kasturi berupa Shalawat dan Keridhaan-Mu"
-  },
-  {
-    "textOn": ""
   }
 ]

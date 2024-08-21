@@ -2,7 +2,8 @@
 
     <style name="Base.Theme.NewAlBarzanji" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:colorBackground">@color/mode_malam</item>
-        <item name="android:statusBarColor">#0B141B</item>
+        <item name="android:statusBarColor">@color/mode_malam</item>
+        <item name="android:navigationBarColor">@color/mode_malam</item>
     </style>
 
     <!--    warna font -->
@@ -29,6 +30,10 @@
         <item name="titleTextColor">@color/white</item>
         <item name="titleTextAppearance">@style/ToolbarTittleTextAppearance</item>
     </style>
+    <style name="toolbar_detail">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">@color/mode_malam</item>
+    </style>
 
     <!--    navbar-->
     <style name="navbarstyle">
@@ -36,16 +41,38 @@
         <item name="android:background">@color/mode_malam</item>
     </style>
 
+
     <!-- Theme background teks -->
     <style name="theme_color_backgroundTeks">
         <item name="android:background">@color/mode_malam</item>
     </style>
+
     <style name="theme_color_backgroundStroke">
-        <item name="android:background">#6153B9</item>
+        <item name="android:background">#1C115E</item>
     </style>
 
     <!-- Theme background tombol -->
     <style name="theme_color_backgroundTombol">
         <item name="cardBackgroundColor">#182D3D</item>
+    </style>
+
+    <!--    card tentang-->
+    <style name="color_bg_tentang">
+        <item name="cardBackgroundColor">#182D3D</item>
+    </style>
+    <style name="CardTentang">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="color_bg_tentangheader">
+        <item name="android:background">@color/mode_malam</item>
+    </style>
+
+    <!--    item button-->
+    <style name="warna_teks_itembutton">
+        <item name="android:textColor">@color/white</item>
     </style>
 </resources>

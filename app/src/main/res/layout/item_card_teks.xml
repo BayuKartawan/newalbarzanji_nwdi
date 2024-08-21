@@ -13,10 +13,10 @@
     <TextView
         android:id="@+id/card_teks_on"
         style="@style/CardTeks"
-        android:fontFamily="@font/scheherazadenew_medium"
+        android:fontFamily="@font/uthman_taha_naskh_regular"
         android:foreground="?attr/selectableItemBackground"
         android:text="@string/card_teksarab"
-        android:textSize="26sp"
+        android:textSize="30sp"
         tools:ignore="UnusedAttribute" />
 
     <TextView
@@ -27,6 +27,6 @@
 
     <View
         android:layout_width="wrap_content"
-        android:layout_height="0.3dp"
+        android:layout_height="0.5dp"
         style="@style/theme_color_backgroundStroke" />
 </LinearLayout>

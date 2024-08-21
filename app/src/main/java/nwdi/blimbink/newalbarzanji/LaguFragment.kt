@@ -1,95 +1,49 @@
 package nwdi.blimbink.newalbarzanji
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import nwdi.blimbink.newalbarzanji.adapter.ButtonAdapter
-import nwdi.blimbink.newalbarzanji.lagu.LaguAhlanbiwafFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguAntiyapancorFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguBersatuhaluwanFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguHayyaganunnaFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguMarsmahadFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguMarsnwFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguMarsnwdiFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguNahdlatainFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguNwdidaimanFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguObatsakitjahilFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguTanawwaromaFragment
-import nwdi.blimbink.newalbarzanji.lagu.LaguYadzaljalaFragment
-import nwdi.blimbink.newalbarzanji.model.ItemDaftarIsi
-import java.io.InputStreamReader
 
 class LaguFragment : Fragment() {
-
-    private lateinit var recyclerView: RecyclerView
-    private lateinit var adapter: ButtonAdapter
-    private lateinit var items: List<ItemDaftarIsi>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_lagu, container, false)
-    }
+        // Inflate the layout for this fragment
+        val view = inflater.inflate(R.layout.fragment_lagu, container, false)
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-
-        // Menyembunyikan btn_toggle_nav di DaftarIsiFragment
-//        (activity as? MainActivity)?.setBtnToggleNavVisibility(View.GONE)
-
-        recyclerView = view.findViewById(R.id.recycler_view_lagu)
+        val items = listOf(
+            "Antiya Pancor\n( اَنْتِ يَا فَنْجُوْر بِلَادِى )",
+            "Yaa Fata Sasak\n( هَيَّا غَنُوْا نَشِيْدَنَا )",
+            "Ya Dzal Jala Liwal Iqram\n( يَا ذَاالْجَلَالِ وَالْاِكْرَامْ )",
+            "Nahdlatain\n( Nahdlatul Wathan setia )",
+            "Ya man yaru mul ula\n(يا من يروم العلى )",
+            "Obat Sakit Jahil\n( Sakit Jahil nde' narak oatne )",
+            "Ahlan Biwaf Bizairi\n( اَهْلًا بِوَفْدِ زَائِرِيْن )",
+            "Mars Ma’had\n(Ma’had darul qur’an...)",
+            "Pacu Gama’\n(Inaq amaqku...)",
+            "Tanawwaro\n(تنور محفلنا فبدا )",
+            "Bersatu Haluwan\n(امامنا الشافعى)",
+            "Mars NW\n(Kami benihan...)",
+            "Mars NWDI\n(Cinta teguh pada agama...)",
+            "NWDI Daiman Abada\n(Di tamaan sanubari...)",
+            ""
+        )
+        val recyclerView = view.findViewById<RecyclerView>(R.id.recycler_view_lagu)
         recyclerView.layoutManager = LinearLayoutManager(context)
-
-        items = readItemsFromJson() // Lazy loading: hanya baca data sekali saat pertama kali digunakan
-        adapter = ButtonAdapter(items.map { it.name }) { itemName ->
-            val item = items.find { it.name == itemName }
-            item?.let {
-                navigateToDetailFragment(it.id)
-            }
+        recyclerView.adapter = ButtonAdapter(items) { item ->
+            val intent = Intent(activity, DetailActivity::class.java)
+            intent.putExtra("ITEM_TITLE", item)
+            startActivity(intent)
         }
-        recyclerView.adapter = adapter
-    }
 
-    private fun readItemsFromJson(): List<ItemDaftarIsi> {
-        val inputStream = resources.openRawResource(R.raw.items_lagu)
-        val reader = InputStreamReader(inputStream)
-        val itemType = object : TypeToken<List<ItemDaftarIsi>>() {}.type
-        return Gson().fromJson(reader, itemType)
-    }
-
-    private fun navigateToDetailFragment(itemId: Int) {
-        val fragment = when (itemId) {
-            1 -> LaguAntiyapancorFragment()
-            2 -> LaguHayyaganunnaFragment()
-            3 -> LaguYadzaljalaFragment()
-            4 -> LaguNahdlatainFragment()
-            5 -> LaguObatsakitjahilFragment()
-            6 -> LaguAhlanbiwafFragment()
-            7 -> LaguMarsmahadFragment()
-            8 -> LaguTanawwaromaFragment()
-            9 -> LaguBersatuhaluwanFragment()
-            10 -> LaguMarsnwFragment()
-            11 -> LaguNwdidaimanFragment()
-            12 -> LaguMarsnwdiFragment()
-            else -> null
-        }
-        fragment?.let {
-            val bundle = Bundle().apply {
-                putInt("ITEM_ID", itemId)
-            }
-            it.arguments = bundle
-            parentFragmentManager.beginTransaction()
-                .replace(R.id.frame_container, it)
-                .addToBackStack(null)
-                .commit()
-        }
+        return view
     }
 }

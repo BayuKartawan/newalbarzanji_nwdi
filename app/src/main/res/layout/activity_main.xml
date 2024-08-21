@@ -16,6 +16,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:paddingStart="15dp"
         tools:ignore="MissingConstraints">
 
         <ImageButton
@@ -32,11 +33,10 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_bawah"
+        style="@style/navbarstyle"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        style="@style/navbarstyle"
         app:itemTextAppearanceActive="@style/BottomNavigationTextAppearance"
-        app:itemTextAppearanceInactive="@style/BottomNavigationTextAppearance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

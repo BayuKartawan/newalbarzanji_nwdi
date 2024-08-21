@@ -1,6 +1,6 @@
 [
   {
-    "textOn": "۞** الخاتمة **۞",
+    "textOn": "۞ الخاتمة ۞",
     "textOff": "Doa Penutup"
   },
   {
@@ -10,7 +10,7 @@
   },
   {
     "no": "2",
-    "textOn": "اللّٰهُمَّ لَا تُؤَاخِذْنَا بِاِلْجَرِيْرَةِ ،\nوَاَصْلِحْ لَنَا الْعَلَانِيَّةَ والسَّرِيْرَةِ ،",
+    "textOn": "اللّٰهُمَّ لَا تُؤَاخِذْنَا بِاِلْجَرِيْرَةِ ،\nوَاَصْلِحْ لَنَا الْعَلَانِيَةَ والسَّرِيْرَةِ ،",
     "textOff": "Ya Allah janganlah Engkau timpakan kepada kami segala kesalahan yang kami lakukan. Dan selamatkanlah kami dalam segala keadaan terang- terangan maupun diam-diam."
   },
   {
@@ -32,14 +32,5 @@
     "no": "6",
     "textOn": "وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِينَ ،",
     "textOff": "Salam sejahtera atas para rasul dan segala puji bagi Allah Tuhan semesta alam. Amin."
-  },
-  {
-    "textOn": ""
-  },
-  {
-    "textOn": ""
-  },
-  {
-    "textOn": ""
   }
 ]

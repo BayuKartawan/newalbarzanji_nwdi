@@ -8,11 +8,12 @@
 
     <androidx.appcompat.widget.Toolbar
         style="@style/toolbar_global"
+        android:paddingEnd="15dp"
         app:menu="@menu/toolbar_search">
 
         <RelativeLayout
             style="@style/layout_heigh_width_mm"
-            android:layout_marginStart="45dp">
+            android:layout_marginStart="55dp">
 
             <TextView
                 android:id="@+id/toolbar_title"

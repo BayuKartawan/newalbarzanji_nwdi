@@ -43,10 +43,17 @@
     <style name="CardTentang">
         <item name="android:layout_height">50dp</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:background">@drawable/latar_button_tentang1</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:padding">10dp</item>
         <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="color_bg_tentang">
+        <item name="cardBackgroundColor">#F8E4B7</item>
+    </style>
+
+    <style name="color_bg_tentangheader">
+        <item name="android:background">@color/hijau</item>
     </style>
 
     <!--  INTROO STYLE  -->
@@ -81,7 +88,6 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-
     <!--  style toolbar  -->
     <style name="toolbar_global">
         <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
@@ -90,5 +96,9 @@
         <item name="android:background">@color/hijau</item>
         <item name="titleTextColor">@color/white</item>
         <item name="titleTextAppearance">@style/ToolbarTittleTextAppearance</item>
+    </style>
+    <style name="toolbar_detail">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">@color/hijau</item>
     </style>
 </resources>

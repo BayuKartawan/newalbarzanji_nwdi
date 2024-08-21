@@ -9,9 +9,6 @@
 
         <menu>
             <item
-                android:id="@+id/menu_baca_panduan"
-                android:title="@string/item_bacapanduan" />
-            <item
                 android:id="@+id/menu_items_daftarisi_qiroatul"
                 android:title="@string/item_bacaqiroatul" />
             <item

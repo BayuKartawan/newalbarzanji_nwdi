@@ -60,7 +60,6 @@ class BacaFragment : Fragment() {
 
     private fun loadItemsFromRawResources(): List<ItemBaca> {
         val rawResources = listOf(
-            R.raw.baca_panduan,
             R.raw.items_daftarisi_qiroatul,
             R.raw.items_daftarisi_sholawatnahdlatain,
             R.raw.items_daftarisi_sholawatfatih,
@@ -96,15 +95,14 @@ class BacaFragment : Fragment() {
     @Deprecated("Deprecated in Java")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val position = when (item.itemId) {
-            R.id.menu_baca_panduan -> items.indexOfFirst { it.textOn == "**** Panduan Membaca ****" }
-            R.id.menu_items_daftarisi_qiroatul -> items.indexOfFirst { it.textOn == "۞** قِرَاءَةُ الْفَاتِحَةِ **۞" }
-            R.id.menu_items_daftarisi_sholawatnahdlatain -> items.indexOfFirst { it.textOn == "۞** صَلاَةُ النَّهْضَتَيْنِ **۞" }
-            R.id.menu_items_daftarisi_sholawatfatih -> items.indexOfFirst { it.textOn == "۞*** صَلاَةُ الْفَاتِحِ ***۞" }
-            R.id.menu_items_daftarisi_albarzanji -> items.indexOfFirst { it.textOn == "۞*** مولد البرزنجى نظم ***۞" }
-            R.id.menu_items_daftarisi_tholaalbadru -> items.indexOfFirst { it.textOn == "۞** يقرأ عند القيام **۞" }
-            R.id.menu_items_daftarisi_iilahitam -> items.indexOfFirst { it.textOn == "۞** الهى تمم النعما علينا **۞" }
-            R.id.menu_items_daftarisi_sholawatbadriah -> items.indexOfFirst { it.textOn == "۞** الصّلٰوات البدرية **۞" }
-            R.id.menu_items_daftarisi_doadoa -> items.indexOfFirst { it.textOn == "۞** الخاتمة **۞" }
+            R.id.menu_items_daftarisi_qiroatul -> items.indexOfFirst { it.textOn == "۞ قِرَاءَةُ الْفَاتِحَةِ ۞" }
+            R.id.menu_items_daftarisi_sholawatnahdlatain -> items.indexOfFirst { it.textOn == "۞ صَلاَةُ النَّهْضَتَيْنِ ۞" }
+            R.id.menu_items_daftarisi_sholawatfatih -> items.indexOfFirst { it.textOn == "۞ صَلاَةُ الْفَاتِحِ ۞" }
+            R.id.menu_items_daftarisi_albarzanji -> items.indexOfFirst { it.textOn == "۞ مولد البرزنجى نظم ۞" }
+            R.id.menu_items_daftarisi_tholaalbadru -> items.indexOfFirst { it.textOn == "۞ يقرأ عند القيام ۞" }
+            R.id.menu_items_daftarisi_iilahitam -> items.indexOfFirst { it.textOn == "۞ الهى تمم النعما علينا ۞" }
+            R.id.menu_items_daftarisi_sholawatbadriah -> items.indexOfFirst { it.textOn == "۞ الصّلٰوات البدرية ۞" }
+            R.id.menu_items_daftarisi_doadoa -> items.indexOfFirst { it.textOn == "۞ الخاتمة ۞" }
             else -> -1
         }
 
