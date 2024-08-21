@@ -3,23 +3,28 @@
     <style name="Base.Theme.NewAlBarzanji" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:colorBackground">@color/mode_siang</item>
         <item name="android:statusBarColor">@color/hijau</item>
+        <item name="android:navigationBarColor">@color/mode_siang</item>
     </style>
 
     <style name="Theme.NewAlBarzanji" parent="Base.Theme.NewAlBarzanji" />
 
-    <style name="card_view_teks">
-        <item name="strokeWidth">0.5dp</item>
-        <item name="strokeColor">@color/hijau_tombol2</item>
+    <!--    card teks-->
+    <style name="theme_color_backgroundStroke">
+        <item name="android:background">@color/hijau_tombol2</item>
     </style>
 
     <!--    navbar-->
     <style name="navbarstyle">
         <item name="itemIconTint">@color/nav_item_color_selector</item>
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@color/mode_siang</item>
     </style>
 
     <!--    warna font -->
     <style name="color_font_theme">
         <item name="android:textColor">@color/hijau</item>
+    </style>
+    <!--    item button-->
+    <style name="warna_teks_itembutton">
+        <item name="android:textColor">@color/black</item>
     </style>
 </resources>

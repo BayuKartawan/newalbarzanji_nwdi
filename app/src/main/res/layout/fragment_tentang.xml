@@ -9,12 +9,13 @@
         android:id="@+id/tentang_chat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="15dp"
         android:background="?attr/selectableItemBackground"
         android:contentDescription="asasa"
         android:elevation="1dp"
         android:padding="8dp"
-        android:src="@drawable/icon_chat"
+        android:src="@drawable/icon_setting"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck" />
@@ -24,24 +25,41 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <androidx.appcompat.widget.Toolbar
-            style="@style/toolbar_global"
-            app:title="@string/toolbar_tentang" />
-
-        <FrameLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_intro_1">
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/itemcard_tentang_on"
-                style="@style/CardTentang"
-                android:background="?attr/selectableItemBackground"
-                android:fontFamily="@font/playfairdisplay_medium"
-                android:text="@string/tentang_trakteer"
-                android:textAlignment="center"
-                android:textColor="@color/white" />
-        </FrameLayout>
+                android:id="@+id/toolbar_title"
+                style="@style/color_bg_tentangheader"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/playfairdisplay_regular"
+                android:gravity="center"
+                android:text="@string/toolbar_tentang"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_intro_1">
+
+                <TextView
+                    android:id="@+id/itemcard_tentang_on"
+                    style="@style/CardTentang"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="@string/tentang_trakteer"
+                    android:textColor="@color/white"
+                    tools:ignore="UnusedAttribute" />
+            </FrameLayout>
+
+        </LinearLayout>
+
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview_tentang"

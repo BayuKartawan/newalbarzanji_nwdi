@@ -14,6 +14,7 @@ class SettingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_setting)
 
+
         // Mengambil referensi ke Switch dari layout
         val switch1 = findViewById<Switch>(R.id.switch1)
 
