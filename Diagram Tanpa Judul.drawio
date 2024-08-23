@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Halaman-1" id="_kUwV4zUr6YiUMnC7bTi">
-    <mxGraphModel>
+    <mxGraphModel dx="1147" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry width="440" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="xTAgwLi-LPRYSbEvn7TH-20" source="xTAgwLi-LPRYSbEvn7TH-8" target="xTAgwLi-LPRYSbEvn7TH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-8" value="Pengumpulan Data" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xTAgwLi-LPRYSbEvn7TH-20">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="xTAgwLi-LPRYSbEvn7TH-20" source="xTAgwLi-LPRYSbEvn7TH-9" target="xTAgwLi-LPRYSbEvn7TH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-9" value="Pengolahan Data Valid di Word" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xTAgwLi-LPRYSbEvn7TH-20">
+          <mxGeometry x="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="xTAgwLi-LPRYSbEvn7TH-20" source="xTAgwLi-LPRYSbEvn7TH-12" target="xTAgwLi-LPRYSbEvn7TH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-12" value="Memasukkan dan Menyimpan Data ke-JSON" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xTAgwLi-LPRYSbEvn7TH-20">
+          <mxGeometry x="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="xTAgwLi-LPRYSbEvn7TH-20" source="xTAgwLi-LPRYSbEvn7TH-13" target="xTAgwLi-LPRYSbEvn7TH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-13" value="Desain Aplikasi" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xTAgwLi-LPRYSbEvn7TH-20">
+          <mxGeometry x="320" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="xTAgwLi-LPRYSbEvn7TH-20" source="xTAgwLi-LPRYSbEvn7TH-14" target="xTAgwLi-LPRYSbEvn7TH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-14" value="Perancangan Aplikasi" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xTAgwLi-LPRYSbEvn7TH-20">
+          <mxGeometry x="160" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-15" value="Aplikasi Maulid Al-Barzaji NW" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="xTAgwLi-LPRYSbEvn7TH-20">
+          <mxGeometry y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xTAgwLi-LPRYSbEvn7TH-23" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#ff0000;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
