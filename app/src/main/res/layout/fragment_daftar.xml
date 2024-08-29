@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_heigh_width_mm"
+    android:orientation="vertical"
+    tools:context=".LaguFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_listitem"
+        style="@style/toolbar_global"
+        android:layout_width="match_parent"
+        app:title="@string/toolbar_lagu">
+
+        <SearchView
+            android:id="@+id/search_daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:iconifiedByDefault="true"
+            android:queryHint="Cari apa?"
+            android:searchIcon="@drawable/icon_cari" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_lagu"
+        style="@style/scroll_bar" />
+
+</LinearLayout>

@@ -2,8 +2,8 @@
     <!-- Gradien warna -->
     <gradient
         android:angle="180"
-        android:endColor="#0B141B"
-        android:startColor="#072D4A" />
+        android:endColor="@color/mode_malam"
+        android:startColor="@color/mode_malam2" />
 
     <!-- Radius sudut -->
     <corners

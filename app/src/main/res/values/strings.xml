@@ -81,4 +81,8 @@
     <string name="card_teksindo">Contok Tulisan</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--  string sample  -->
+    <string name="teks_sample">Teks Sample</string>
+    <!--  string sample  -->
+    <string name="teks_tema">Tema aplikasi</string>
 </resources>

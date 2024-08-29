@@ -30,7 +30,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view_descriptions"
-            style="@style/layout_heigh_width_mm" />
+            style="@style/scroll_bar" />
     </LinearLayout>
 
     <ImageButton

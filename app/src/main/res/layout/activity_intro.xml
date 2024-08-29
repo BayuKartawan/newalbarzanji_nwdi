@@ -50,11 +50,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/scheherazadenew_medium"
+                android:fontFamily="@font/uthman_taha_naskh_regular"
                 android:text="@string/string_intro_judularab"
                 android:textAlignment="center"
                 style="@style/color_font_theme"
-                android:textSize="40sp"
+                android:textSize="45sp"
                 tools:ignore="HardcodedText" />
         </LinearLayout>
 
@@ -83,9 +83,8 @@
             android:gravity="center"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:fontFamily="@font/scheherazadenew_medium"
             android:text="@string/string_intro_dekorasi"
-            android:textSize="30sp"
+            android:textSize="20sp"
             tools:ignore="InefficientWeight" />
 
         <TextView

@@ -1,5 +1,6 @@
 package nwdi.blimbink.newalbarzanji.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,9 +10,15 @@ import androidx.recyclerview.widget.RecyclerView
 import nwdi.blimbink.newalbarzanji.R
 
 class ButtonAdapter(
-    private val items: List<String>,
+    private var items: List<String>, // Ubah 'val' menjadi 'var'
     private val onItemClick: (String) -> Unit
 ) : RecyclerView.Adapter<ButtonAdapter.ButtonViewHolder>() {
+
+    @SuppressLint("NotifyDataSetChanged")
+    fun updateData(newItems: List<String>) {
+        items = newItems
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ButtonViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -31,4 +38,5 @@ class ButtonAdapter(
         val cardView: CardView = view.findViewById(R.id.card_view_item)
         val textView: TextView = view.findViewById(R.id.button_item)
     }
+
 }

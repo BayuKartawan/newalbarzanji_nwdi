@@ -27,4 +27,27 @@
     <style name="warna_teks_itembutton">
         <item name="android:textColor">@color/black</item>
     </style>
+    <!--    scroll bar -->
+    <style name="scroll_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scrollbarThumbVertical">@color/hijau</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+    <!--  setting  -->
+    <style name="bg_tema">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="bg_viewseek">
+        <item name="android:background">@color/hijau</item>
+    </style>
+    <style name="teks_headerseek">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="teks_anakseek">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>

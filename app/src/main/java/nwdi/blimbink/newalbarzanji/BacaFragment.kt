@@ -54,7 +54,7 @@ class BacaFragment : Fragment() {
         items = loadItemsFromRawResources()
 
         // Set up the adapter
-        adapter = AdapterCardTeks(items.map { it.textOn to it.textOff })
+        adapter = AdapterCardTeks(requireContext(), items.map { it.textOn to it.textOff })
         recyclerView.adapter = adapter
     }
 

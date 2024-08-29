@@ -17,8 +17,7 @@
         android:focusable="true"
         android:foreground="?attr/selectableItemBackground"
         android:orientation="vertical"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="5dp">
+        app:cardCornerRadius="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,7 +28,8 @@
                 android:id="@+id/itemcard_tentang_on"
                 style="@style/CardTentang"
                 android:foreground="?attr/selectableItemBackground"
-                android:text="Teks Sample"
+                android:gravity="center"
+                android:text="@string/teks_sample"
                 android:textAlignment="center"
                 tools:ignore="UnusedAttribute" />
 
@@ -38,8 +38,7 @@
                 style="@style/CardTentang"
                 android:layout_height="wrap_content"
                 android:background="@drawable/latar_button_tentang1"
-                android:justificationMode="inter_word"
-                android:text="Teks Sample"
+                android:text="@string/teks_sample"
                 tools:ignore="UnusedAttribute" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>

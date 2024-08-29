@@ -10,32 +10,28 @@
         android:id="@+id/toolbar_baca"
         style="@style/toolbar_global"
         android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
-        android:paddingEnd="13dp"
+        android:paddingEnd="10dp"
         app:menu="@menu/toolbar_menu">
 
         <RelativeLayout
             style="@style/layout_heigh_width_mm"
-            android:layout_marginStart="57dp">
+            android:layout_marginStart="54dp">
 
             <TextView
                 android:id="@+id/toolbar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:fontFamily="@font/playfairdisplay_regular"
                 android:text="@string/toolbar_baca"
                 android:textColor="@android:color/white"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textSize="16sp" />
         </RelativeLayout>
     </com.google.android.material.appbar.MaterialToolbar>
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview_baca"
-        style="@style/layout_heigh_width_mm"
-        android:scrollbarThumbVertical="@drawable/bg_intro_1"
-        android:scrollbars="vertical" />
+        style="@style/scroll_bar" />
 
 
 </LinearLayout>

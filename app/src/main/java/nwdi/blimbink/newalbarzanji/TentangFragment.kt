@@ -31,8 +31,8 @@ class TentangFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Menyembunyikan btn_toggle_nav di DaftarIsiFragment
-//        (activity as? MainActivity)?.setBtnToggleNavVisibility(View.GONE)
+        // Menyembunyikan btn_toggle_nav
+        (activity as? MainActivity)?.setBtnToggleNavVisibility(View.GONE)
 
         // Initialize RecyclerView
         val recyclerView: RecyclerView = view.findViewById(R.id.recyclerview_tentang)

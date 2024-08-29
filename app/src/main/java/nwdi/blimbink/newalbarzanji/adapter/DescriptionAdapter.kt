@@ -38,8 +38,28 @@ class DescriptionAdapter(
         val (textOn, textOff) = items[position]
         holder.teksOn.text = textOn
         holder.teksOff.text = textOff
+
+        // Logika untuk mengatur ukuran font
+        if (isArabicText(textOn)) {
+            holder.teksOn.textSize = 30f
+        } else {
+            // Atur ukuran font untuk teks selain Arab
+            holder.teksOn.textSize = 18f // Ganti dengan ukuran font yang diinginkan
+        }
+
         // Set initial visibility based on your requirements
         holder.teksOff.visibility = View.GONE
+    }
+
+    // Fungsi untuk mendeteksi apakah teks adalah bahasa Arab
+    private fun isArabicText(text: String): Boolean {
+        val arabicUnicodeBlock = Character.UnicodeBlock.ARABIC
+        for (char in text) {
+            if (Character.UnicodeBlock.of(char) == arabicUnicodeBlock) {
+                return true
+            }
+        }
+        return false
     }
 
     override fun getItemCount(): Int = items.size

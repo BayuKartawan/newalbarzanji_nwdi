@@ -17,16 +17,14 @@
     </style>
 
     <style name="ToolbarTittleTextAppearance" parent="TextAppearance.AppCompat.Medium">
-        <item name="fontFamily">@font/playfairdisplay_medium</item>
         <item name="android:textSize">16sp</item>
-
     </style>
 
     <!-- Style ini saya gunakan di navigasi bar, jika tombol active-->
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/white</item>
         <item name="itemIconTint">@color/hijau</item>
-        <item name="android:fontFamily">@font/playfairdisplay_medium</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <!--    Card Teks-->
@@ -49,7 +47,7 @@
     </style>
 
     <style name="color_bg_tentang">
-        <item name="cardBackgroundColor">#F8E4B7</item>
+        <item name="cardBackgroundColor">@color/white</item>
     </style>
 
     <style name="color_bg_tentangheader">
@@ -97,8 +95,10 @@
         <item name="titleTextColor">@color/white</item>
         <item name="titleTextAppearance">@style/ToolbarTittleTextAppearance</item>
     </style>
+
     <style name="toolbar_detail">
         <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
         <item name="android:background">@color/hijau</item>
     </style>
+
 </resources>

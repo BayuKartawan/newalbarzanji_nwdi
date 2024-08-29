@@ -17,18 +17,28 @@
         android:clickable="true"
         android:foreground="?attr/selectableItemBackground"
         app:cardCornerRadius="3dp"
-        app:cardElevation="2dp"
         tools:ignore="KeyboardInaccessibleWidget,TouchTargetSizeCheck">
 
-        <TextView
-            android:id="@+id/button_item"
-            style="@style/warna_teks_itembutton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:textSize="16sp"
-            android:text="asasas"
-            android:textAlignment="viewStart" />
+        <LinearLayout
+            style="@style/layout_heigh_width_mm"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+            <TextView
+                android:id="@+id/button_item"
+                style="@style/warna_teks_itembutton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="@string/teks_sample"
+                android:textAlignment="viewStart"
+                android:textSize="16sp" />
+            <ImageView
+                style="@style/layout_heigh_width_ww"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/icon_go" />
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 

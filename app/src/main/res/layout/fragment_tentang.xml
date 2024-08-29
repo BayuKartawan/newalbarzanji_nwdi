@@ -35,37 +35,20 @@
                 style="@style/color_bg_tentangheader"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:fontFamily="@font/playfairdisplay_regular"
                 android:gravity="center"
+                android:paddingStart="20dp"
                 android:text="@string/toolbar_tentang"
+                android:textAlignment="textStart"
                 android:textColor="@android:color/white"
-                android:textSize="16sp"
-                android:textStyle="bold" />
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bg_intro_1">
-
-                <TextView
-                    android:id="@+id/itemcard_tentang_on"
-                    style="@style/CardTentang"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:foreground="?attr/selectableItemBackground"
-                    android:text="@string/tentang_trakteer"
-                    android:textColor="@color/white"
-                    tools:ignore="UnusedAttribute" />
-            </FrameLayout>
+                android:textSize="16sp" />
 
         </LinearLayout>
 
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview_tentang"
-            style="@style/layout_heigh_width_mm" />
+            style="@style/scroll_bar" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
