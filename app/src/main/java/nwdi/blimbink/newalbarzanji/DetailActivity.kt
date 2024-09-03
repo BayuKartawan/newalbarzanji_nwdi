@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import nwdi.blimbink.newalbarzanji.adapter.DescriptionAdapter
+import nwdi.blimbink.newalbarzanji.adapter.AdapterCardTeks
 
 @Suppress("DEPRECATION")
 class DetailActivity : AppCompatActivity() {
@@ -46,9 +46,10 @@ class DetailActivity : AppCompatActivity() {
             // Set the title
             titleTextView.text = selectedItem.title
 
-            // Set up and attach the adapter
-            val descriptionAdapter = DescriptionAdapter(selectedItem.descriptionItems)
-            recyclerView.adapter = descriptionAdapter
+            // Attach the appropriate adapter
+            val adapter = AdapterCardTeks(this, selectedItem.descriptionItems.map { it.textOn to it.textOff })
+            recyclerView.adapter = adapter
+
 
             // Prepare audio if available
             val audioFileName = selectedItem.audioFileName

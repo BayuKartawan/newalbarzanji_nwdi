@@ -14,8 +14,7 @@
 
         <SearchView
             android:id="@+id/search_daftar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/layout_heigh_width_ww"
             android:layout_gravity="end"
             android:iconifiedByDefault="true"
             android:queryHint="Cari apa?"

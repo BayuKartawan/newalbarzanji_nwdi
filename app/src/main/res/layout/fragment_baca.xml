@@ -11,7 +11,8 @@
         style="@style/toolbar_global"
         android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
         android:paddingEnd="10dp"
-        app:menu="@menu/toolbar_menu">
+        app:menu="@menu/toolbar_menu"
+        tools:ignore="RtlSymmetry">
 
         <RelativeLayout
             style="@style/layout_heigh_width_mm"
@@ -19,8 +20,7 @@
 
             <TextView
                 android:id="@+id/toolbar_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/layout_heigh_width_ww"
                 android:layout_centerInParent="true"
                 android:text="@string/toolbar_baca"
                 android:textColor="@android:color/white"

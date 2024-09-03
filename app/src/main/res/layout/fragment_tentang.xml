@@ -6,7 +6,7 @@
     tools:context=".TentangFragment">
 
     <ImageButton
-        android:id="@+id/tentang_chat"
+        android:id="@+id/tentang_setelan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="15dp"

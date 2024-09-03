@@ -6,7 +6,6 @@
     "Tanggal": "Sabtu, 17 Agustus 2024"
   },
   {
-    "no": "1",
     "title": "Antiya Pancor\n( اَنْتِ يَا فَنْجُوْر بِلَادِى )",
     "descriptionItems": [
       {
@@ -49,7 +48,6 @@
     "audioFileName": "antia_pancor"
   },
   {
-    "no": "2",
     "title": "Yaa Fata Sasak\n( هَيَّا غَنُوْا نَشِيْدَنَا )",
     "descriptionItems": [
       {
@@ -111,7 +109,6 @@
     "audioFileName": "yafata_sasak"
   },
   {
-    "no": "3",
     "title": "Ya Dzal Jala Liwal Iqram\n( يَا ذَاالْجَلَالِ وَالْاِكْرَامْ )",
     "descriptionItems": [
       {
@@ -182,7 +179,6 @@
     "audioFileName": "yadzaljala"
   },
   {
-    "no": "4",
     "title": "Nahdlatain\n( Nahdlatul Wathan setia )",
     "descriptionItems": [
       {
@@ -193,7 +189,7 @@
       {
         "no": "1",
         "textOn": "Nahdlatul Wathan setia\nNahdlatul Banat sedia\nNgurasang batur si'pidem\nNde'ne ngase leat kelem (2x)",
-        "textOff": "Nahdlatul Wathan setia\nNahdlatul Banat sedia\nNgurasang batur si'pidem\nNde'ne ngase leat kelem (2x)"
+        "textOff": "Nahdlatul Wathan Setia\nNahdlatul Banat Sedia\nBangunlah kawan terlelap\nTak Sadar Larut nan Gelap.(2x)"
       },
       {
         "no": "2",
@@ -224,7 +220,6 @@
     "audioFileName": "nahdlatain"
   },
   {
-    "no": "5",
     "title": "Obat Sakit Jahil\n( Sakit Jahil nde' narak oatne )",
     "descriptionItems": [
       {
@@ -286,7 +281,6 @@
     "audioFileName": "sakit_jahil"
   },
   {
-    "no": "6",
     "title": "Ahlan Biwaf Bizairi\n( اَهْلًا بِوَفْدِ زَائِرِيْن )",
     "descriptionItems": [
       {
@@ -348,7 +342,6 @@
     "audioFileName": "ahlan"
   },
   {
-    "no": "7",
     "title": "Mars Ma’had\n(Ma’had darul qur’an...)",
     "descriptionItems": [
       {
@@ -363,7 +356,6 @@
     "audioFileName": "musik5"
   },
   {
-    "no": "8",
     "title": "Tanawwaro\n(تنور محفلنا فبدا )",
     "descriptionItems": [
       {
@@ -435,7 +427,6 @@
     "audioFileName": "tanawwaro"
   },
   {
-    "no": "9",
     "title": "Bersatu Haluwan\n(امامنا الشافعى)",
     "descriptionItems": [
       {
@@ -487,7 +478,6 @@
     "audioFileName": "imam_syafii"
   },
   {
-    "no": "10",
     "title": "Kami benihan\n(Kami benihan...)",
     "descriptionItems": [
       {
@@ -497,71 +487,23 @@
       },
       {
         "no": "1",
-        "textOn": "Kami benihan Nahdlatul Wathan yang setia\nMengorbankan jiwa membela Nusa dan Bangsa\nAgar umat seluruh bersatu raga\nMarilah kita hindarkan pengaruhnya setan durhaka\nTeguhkan hati janganlah mundur\nWalau setapak kaki….",
-        "textOff": ""
-      },
-      {
-        "no": "2",
-        "textOn": "Serta tulus ikhlas kepada Tuhan\nJangan tingggi karena puji\nMari kita lenyapkan\nAgar Nahdlatul Wathan yang perwira\nHidup makmur serta jaya\nDalam aman sentosa 2X ",
-        "textOff": ""
+        "textOn": "Kami benihan Nahdlatul Wathan yang setia\nMengorbankan jiwa membela Nusa dan Bangsa\nAgar umat seluruh bersatu raga\nMarilah kita hindarkan pengaruhnya setan durhaka\nTeguhkan hati janganlah mundur\nWalau setapak kaki….\n\nSerta tulus ikhlas kepada Tuhan\nJangan tingggi karena puji\nMari kita lenyapkan\nAgar Nahdlatul Wathan yang perwira\nHidup makmur serta jaya\nDalam aman sentosa 2X"
       }
     ],
     "audioFileName": "kami_benihan"
   },
   {
-    "no": "11",
     "title": "NWDI Daiman Abada\n(Di tamaan sanubari...)",
     "descriptionItems": [
       {
         "no": "1",
-        "textOn": "Di tamaan sanubari yang suci\nTertebar benih cinta abadi\nPadamu NWDI pujaan hati\nBunga persada semerbak mewangi",
-        "textOff": ""
-      },
-      {
-        "no": "2",
-        "textOn": "Dalam hati kami berjanji\nUntuk setia dan berbakti\nDalam mengemban perintah ilahi\nDi bawah panji-panji NWDI",
-        "textOff": ""
-      },
-      {
-        "no": "3",
-        "textOn": "Hanya pada Allah kami berdoa\nSemoga kau jaya selamanya\nMenggemakan iman dan taqwa\nKe nusantara alam semesta",
-        "textOff": ""
-      },
-      {
-        "no": "4",
-        "textOn": "Ayo bersama bangun nusa bangsa\nDengan Qur'an Hadits pedomannya\nAyo bersama bangun nusa bangsa\nBerlandas qiyas ijma' ulama",
-        "textOff": ""
-      },
-      {
-        "no": "5",
-        "textOn": "Dibawah Panji NWDI\nBerlandaskan iman dan taqwa\nDibawah Panji NWDI\nBerlandaskan iman dan taqwa",
-        "textOff": ""
-      },
-      {
-        "no": "6",
-        "textOn": "Dalam hati kami berjanji\nUntuk setia dan berbakti\nDalam mengemban perintah ilahi\nDi bawah panji-panji NWDI",
-        "textOff": ""
-      },
-      {
-        "no": "7",
-        "textOn": "Hanya pada Allah kami meminta\nNWDI daiman abada\nDenan yakin ikhlas serta istikomah\nKamikan sami'na wa ato'na",
-        "textOff": ""
-      },
-      {
-        "no": "8",
-        "textOn": "Ayo bersama bangun nusa bangsa\nDengan Qur'an Hadits pedomannya\nAyo bersama bangun nusa bangsa\nBerlandas qiyas ijma' ulama",
-        "textOff": ""
-      },
-      {
-        "no": "9",
-        "textOn": "Dibawah Panji NWDI\nBerlandaskan iman dan taqwa\nDibawah Panji NWDI\nBerlandaskan iman dan taqwa",
+        "textOn": "Di tamaan sanubari yang suci\nTertebar benih cinta abadi\nPadamu NWDI pujaan hati\nBunga persada semerbak mewangi\n\nDalam hati kami berjanji\nUntuk setia dan berbakti\nDalam mengemban perintah ilahi\nDi bawah panji-panji NWDI\n\nHanya pada Allah kami berdoa\nSemoga kau jaya selamanya\nMenggemakan iman dan taqwa\nKe nusantara alam semesta\n\nAyo bersama bangun nusa bangsa\nDengan Qur'an Hadits pedomannya\nAyo bersama bangun nusa bangsa\nBerlandas qiyas ijma' ulama\n\nDibawah Panji NWDI\nBerlandaskan iman dan taqwa\nDibawah Panji NWDI\nBerlandaskan iman dan taqwa\n\nDalam hati kami berjanji\nUntuk setia dan berbakti\nDalam mengemban perintah ilahi\nDi bawah panji-panji NWDI\n\nHanya pada Allah kami meminta\nNWDI daiman abada\nDenan yakin ikhlas serta istikomah\nKamikan sami'na wa ato'na\n\nAyo bersama bangun nusa bangsa\nDengan Qur'an Hadits pedomannya\nAyo bersama bangun nusa bangsa\nBerlandas qiyas ijma' ulama\n\nDibawah Panji NWDI\nBerlandaskan iman dan taqwa\nDibawah Panji NWDI\nBerlandaskan iman dan taqwa",
         "textOff": ""
       }
     ],
     "audioFileName": "nwdi_daiman"
   },
   {
-    "no": "12",
     "title": "Mars NWDI\n(Cinta teguh pada agama...)",
     "descriptionItems": [
       {
@@ -571,29 +513,13 @@
       },
       {
         "no": "1",
-        "textOn": "Cinta teguh pada agama\nCinta kokoh pada negara\nItulah wasiat sang Maulana\nMuassis NWDI tercinta",
-        "textOff": ""
-      },
-      {
-        "no": "2",
-        "textOn": "Quran hadis ijma qiyas\nAhlussunnah waljamaah\nPedoman kita semua\nIman Takwa untuk negeri berkah",
-        "textOff": ""
-      },
-      {
-        "no": "3",
-        "textOn": "Wahai benihan perjuangan\nMari bergerak satu haluan\nRidha Alloh adalah tujuan \nNWDI wadah perkhidmatan ",
-        "textOff": ""
-      },
-      {
-        "no": "4",
-        "textOn": "Yakin ikhlas sabar istikamah\nDalam satu barisan ukhuwah\nNahdlah kita untuk ummah dan bangsa\nNWDI daiman abadan\nNahdlah kita untuk ummah dan bangsa\nNWDI jaya selamanya",
+        "textOn": "Cinta teguh pada agama\nCinta kokoh pada negara\nItulah wasiat sang Maulana\nMuassis NWDI tercinta\n\nQuran hadis ijma qiyas\nAhlussunnah waljamaah\nPedoman kita semua\nIman Takwa untuk negeri berkah\n\nWahai benihan perjuangan\nMari bergerak satu haluan\nRidha Alloh adalah tujuan \nNWDI wadah perkhidmatan \n\nYakin ikhlas sabar istikamah\nDalam satu barisan ukhuwah\nNahdlah kita untuk ummah dan bangsa\nNWDI daiman abadan\nNahdlah kita untuk ummah dan bangsa\nNWDI jaya selamanya",
         "textOff": ""
       }
     ],
     "audioFileName": "mars_nwdi"
   },
   {
-    "no": "13",
     "title": "Ya man yaru mul ula\n(يا من يروم العلى )",
     "descriptionItems": [
       {
@@ -675,7 +601,6 @@
     "audioFileName": "yamanyaru"
   },
   {
-    "no": "14",
     "title": "Pacu Gama’\n(Inaq amaqku...)",
     "descriptionItems": [
       {
@@ -723,8 +648,7 @@
     "Tanggal": "Sabtu, 17 Agustus 2024"
   },
   {
-    "no": "1",
-    "title": "Qiroatul Fatihah\n( Qiroatul Fatihah Lisayyidina )",
+    "title": "Qiroatul Fatihah\n( قِرَاءَةُ الْفَاتِحَة )",
     "descriptionItems": [
       {
         "textOn": "۞ قِرَاءَةُ الْفَاتِحَةِ ۞",
@@ -768,13 +692,16 @@
         "no": "8",
         "textOn": "خُصُوصًا لِصَاحِبِ مَوْلِدِ الْبَرْزَنْجِي , الفاتحة",
         "textOff": "Khusus untuk pengarang Maulid al-Barzanji"
+      },
+      {
+        "textOn": "",
+        "textOff": ""
       }
     ],
     "audioFileName": "miftah"
   },
   {
-    "no": "2",
-    "title": "Surah YaaSin\n( YaaSin )",
+    "title": "Surah YaaSin\n( يٰسٓ )",
     "descriptionItems": [
       {
         "textOn": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيْم",
@@ -782,7 +709,7 @@
       },
       {
         "Ayat": "1",
-        "textOn": "يٰس",
+        "textOn": "يٰسٓ",
         "textOff": "Ya Sin"
       },
       {
@@ -1199,23 +1126,25 @@
     "audioFileName": "surat_yasin"
   },
   {
-    "no": "3",
-    "title": "Sholawat Fatih\n(  )",
+    "title": "Sholawat Fatih\n( صَلاَةُ الْفَاتِحِ )",
     "descriptionItems": [
       {
-        "textOn": "۞*** صَلاَةُ الْفَاتِحِ ***۞",
+        "textOn": "۞ صَلاَةُ الْفَاتِحِ ۞",
         "textOff": "Sholawat Al-Fatih \n(Sholawat Pembuka)"
       },
       {
         "textOn": "اَللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ الْفَاتِحِ لِمَا اُغْلِقَ وَالْخَاتِمِ لِمَاسَبَقَ النَّاصِرِ الْحَقِّ بِالْحَقِّ وَالْهَادِى إِلَى صِرَاطِكَ الْمُسْتَقِيْمِ وَعَلَى اٰلِهِ حَقَّ قَدْرِهِ وَمِقْدَارِهِ الْعَظِيْمِ",
         "textOff": "Ya Allah Limpahkanlah shalawat kepada junjungan kami Nabi Muhammad yang membuka apa yang tertutup (terkunci), mengakhiri apa yang berlalu, membela kebenaran dengan cara yang benar, memberi petunjuk ke arah jalan yang (Engkau tetapkan) benar, juga kepada para keluarganya sebesar keagungannya."
+      },
+      {
+        "textOn": "",
+        "textOff": ""
       }
     ],
     "audioFileName": "sholawat_fatih"
   },
   {
-    "no": "4",
-    "title": "Al - Barzanji\n( Aljannatu wa na'imuha )",
+    "title": "Al - Barzanji\n( اَلْجَنَّةُ وَ نَعِيْمُهَا )",
     "descriptionItems": [
       {
         "textOn": "۞ مولد البرزنجى نظم ۞",
@@ -1257,7 +1186,7 @@
       },
       {
         "no": "7",
-        "textOn": "وَ أَصْحَابَهُ الْأَبْرَارَ مَنْ شَاعَ فَضْلُهُمْ *\nوَ أَشْيَاعَهٗ وَ التَّابِعِيْنَ يَعُمَّانِ",
+        "textOn": "وَ أَصْحَابَهُ الْأَبْرَارَ مَنْ شَاعَ فَضْلُهُمْ *\nوَ أَشْيَاعَهُ وَ التَّابِعِيْنَ يَعُمَّانِ",
         "textOff": "Juga kepada para sahabatnya yang terpilih yang tersebar keutamaan mereka dan segenap keluarga mereka serta para pengikut mereka"
       },
       {
@@ -1277,12 +1206,12 @@
       },
       {
         "no": "11",
-        "textOn": "وَ بِاللّهِ مَوْلَايَ اسْتَعَنْتُ وَ حَوْلِهٖ\nوَ قُوَّتِهٖ فِيْ سِرِّ سِرٍّ وَّ إِعْلَانٍ",
+        "textOn": "وَ بِاللّٰهِ مَوْلَايَ اسْتَعَنْتُ وَ حَوْلِهِ\nوَ قُوَّتِهِ فِيْ سِرِّ سِرٍّ وَّ إِعْلَان",
         "textOff": "Kepada Allah Tuhanku Jualah aku memohon pertolongan, daya upaya dan kekuatan dalam segala hal, baik ketika sendiri maupun dalam keramaian dunia"
       },
       {
         "no": "12",
-        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهٗ وَ ضَرِيْحَهٗ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ ~",
+        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهُ وَ ضَرِيْحَهُ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ **",
         "textOff": "Ya Tuhanku, Karuniakanlah kesejahteraan kepada ruh dan jasad Nabi Muhammad SAW. dengan harum melebihi kasturi berupa Shalawat dan Keridhaan-Mu"
       },
       {
@@ -1292,7 +1221,7 @@
       },
       {
         "no": "14",
-        "textOn": "وَ قَدْ شَاعَ بَيْنَ الْعَالَمِيْنَ جُدُوْدُهٗ *\nوَ عُدَّ إِلٰى عَدْنَانِ مَا بَيْنَ أَخْدَانِ",
+        "textOn": "وَ قَدْ شَاعَ بَيْنَ الْعَالَمِيْنَ جُدُوْدُهُ *\nوَ عُدَّ إِلٰى عَدْنَانِ مَا بَيْنَ أَخْدَانِ",
         "textOff": "Telah tersebar di seluruh alam akan kemuliaan moyangnya sampai kepada Adnan yang sangat mulia di antara kawan bahkan lawan"
       },
       {
@@ -1312,7 +1241,7 @@
       },
       {
         "no": "18",
-        "textOn": "وَ قَدْ صَانَ مِنْ فِعْلِ السِّفَاحِ أُصُوْلَهٗ *\nإِلٰى أَنْ بَدَا كَالْبَدْرِ يَهْدِيْ لِرَحْمَانِ",
+        "textOn": "وَ قَدْ صَانَ مِنْ فِعْلِ السِّفَاحِ أُصُوْلَهُ *\nإِلٰى أَنْ بَدَا كَالْبَدْرِ يَهْدِيْ لِرَحْمَانِ",
         "textOff": "Sungguh ia terpelihara dari segala perbuatan lacur beserta nenek moyangnya sampai ia hadir bagai bulan purnama menunjukkan arah ke Jalan Tuhan yang Maha Rahman"
       },
       {
@@ -1322,12 +1251,12 @@
       },
       {
         "no": "20",
-        "textOn": "وَ أَعْطٰى لَهٗ ذَاتَ الْعُلُوْمِ وَ إِسْمَهَا *\nلِآدَمَ قَدْ أَعْطٰى فَلِلّهِ مِنْ شَانِ",
+        "textOn": "وَ أَعْطٰى لَهُ ذَاتَ الْعُلُوْمِ وَ إِسْمَهَا *\nلِآدَمَ قَدْ أَعْطٰى فَلِلّهِ مِنْ شَانِ",
         "textOff": "la memberikan kepada Adam ilmu pengetahuan tentang nama-nama sehingga Adam tahu kemuliaan Nabi Muhammad di akhir zaman"
       },
       {
         "no": "21",
-        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهٗ وَ ضَرِيْحَهٗ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ ~",
+        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهُ وَ ضَرِيْحَهُ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ **",
         "textOff": "Ya Tuhanku, Karuniakanlah kesejahteraan kepada ruh dan jasad Nabi Muhammad SAW dengan harum melebihi kasturi berupa Shalawat dan Keridhaan-Mu"
       },
       {
@@ -1357,7 +1286,7 @@
       },
       {
         "no": "27",
-        "textOn": "وَ حَاشَا إِلٰهُ الْعَرْشِ يَرْ ضٰى جَنَابُهٗ *\nلِوَالِدَيِ الْمُخْتَارِ رُؤْيَةَ نِيْرَانِ",
+        "textOn": "وَ حَاشَا إِلٰهُ الْعَرْشِ يَرْ ضٰى جَنَابُهُ *\nلِوَالِدَيِ الْمُخْتَارِ رُؤْيَةَ نِيْرَانِ",
         "textOff": "Selain itu, apakah mungkin Tuhan Yang Maha Menguasai 'Arsy membiarkan kedua orang tua kekasih-Nya untuk tersentuh api neraka?"
       },
       {
@@ -1367,17 +1296,17 @@
       },
       {
         "no": "29",
-        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهٗ وَ ضَرِيْحَهٗ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ ~",
+        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهُ وَ ضَرِيْحَهُ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ **",
         "textOff": "Ya Tuhanku, Karuniakanlah kesejahteraan kepada ruh dan jasad Nabi Muhammad SAW dengan harum melebihi kasturi berupa Shalawat dan Keridhaan-Mu"
       },
       {
         "no": "30",
-        "textOn": "فَمِنْهَا ضِيَاءٌ لَاحَ لَيْلَةَ مَوْلِدٍ *\nأَضَاءَتْ بِهٖ بُصْرٰى وَ سَآئِرُ أَكْوَانِ",
+        "textOn": "فَمِنْهَا ضِيَاءٌ لَاحَ لَيْلَةَ مَوْلِدٍ *\nأَضَاءَتْ بِهِ بُصْرٰى وَ سَآئِرُ أَكْوَانِ",
         "textOff": "Di antara mu'jizat Rasulullah adalah cahaya terang pada malam kelahiran beliau yang menyilaukan pandangan seluruh makhluk yang ada di muka bumi"
       },
       {
         "no": "31",
-        "textOn": "وَ لَاحَتْ قُصُوْرُ الشَّامِ مِنْ أَرْضِ مَكَّةٍ *\nرَأَتْ أُمُّهٗ مِنْهَا شَوَامِخَ بُنْيَانِ",
+        "textOn": "وَ لَاحَتْ قُصُوْرُ الشَّامِ مِنْ أَرْضِ مَكَّةٍ *\nرَأَتْ أُمُّهُ مِنْهَا شَوَامِخَ بُنْيَانِ",
         "textOff": "Tampaklah istana Negeri Syam dari bumi Makkah dilihat oleh Ibundanya akan kemegahan bangunannya yang tinggi"
       },
       {
@@ -1402,7 +1331,7 @@
       },
       {
         "no": "36",
-        "textOn": "وَ قَدْ كَسَّرَ اللهُ الْمُهَيْمِنُ مُلْكَهٗ *\nعَلٰى عَدَدِ الشُّرُفَاتِ جِيْٓئَ بِغِلْمَانِ",
+        "textOn": "وَ قَدْ كَسَّرَ اللهُ الْمُهَيْمِنُ مُلْكَهُ *\nعَلٰى عَدَدِ الشُّرُفَاتِ جِيْئَ بِغِلْمَانِ",
         "textOff": "Sungguh Allah yang Maha Perkasa telah meluluhlantakkan kekuasaan Persia beserta segenap kemuliaannya sehingga jadilah ia negeri baru (bagi kaum muslimin) yang damai"
       },
       {
@@ -1417,7 +1346,7 @@
       },
       {
         "no": "39",
-        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهٗ وَ ضَرِيْحَهٗ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ ~",
+        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهُ وَ ضَرِيْحَهُ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ **",
         "textOff": "Ya Tuhanku, Karuniakanlah kesejahteraan kepada ruh dan jasad Nabi Muhammad SAW dengan harum melebihi kasturi berupa Shalawat dan Keridhaan-Mu"
       },
       {
@@ -1447,7 +1376,7 @@
       },
       {
         "no": "45",
-        "textOn": "وَ لَمَّا مَضٰى شَهْرَانِ مِنْ بَعْدِ حَمْلِهٖ *\nتُوُفِّيَ بِالْفَيْحَآءِ وَالِدُهُ الْهَانِيْ",
+        "textOn": "وَ لَمَّا مَضٰى شَهْرَانِ مِنْ بَعْدِ حَمْلِهِ *\nتُوُفِّيَ بِالْفَيْحَآءِ وَالِدُهُ الْهَانِيْ",
         "textOff": "Tatkala berlalu dua bulan beliau dalam kandungan. Ayahandanya Abdullah bin Abdul Mutholib Wafat di Desa Faiha."
       },
       {
@@ -1467,7 +1396,7 @@
       },
       {
         "no": "49",
-        "textOn": "وَ يَأْتِيْ لَهَا فِي الشَّهْرِ آتٍ مُبَشِّرًا *\nيَقُوْلُ حَمَلْتِ أَشْرَفَ الْإِنْسِ وَ الْجَان",
+        "textOn": "وَ يَأْتِيْ لَهَا فِي الشَّهْرِ آتٍ مُبَشِّرًا *\nيَقُوْلُ حَمَلْتِ أَشْرَفَ الْإِنْسِ وَ الْجَانِ",
         "textOff": "Pada bulan kelahiran beliau Ibundanya didatangi oleh (Malaikat) pemberi kabar gembira mengabarkan: \"Engkau mengandung Makhluk Paling Mulia di antara sekalian manusia bahkan para malaikat dan jin semuanya\""
       },
       {
@@ -1477,12 +1406,12 @@
       },
       {
         "no": "51",
-        "textOn": "فَثِنْتَانِ مِنْ حُوْرِ الْجِنَانِ تَبَدَّتَا *\nوَ آسِيَةٌ مَعْ مَرْيَمٍ بِنْتِ عِمْرَانَ",
+        "textOn": "فَثِنْتَانِ مِنْ حُوْرِ الْجِنَانِ تَبَدَّتَا *\nوَ آسِيَةٌ مَعْ مَرْيَمٍ بِنْتِ عِمْرَانِ",
         "textOff": "Dua diantara mereka adalah bidadari syurga yang menampakkan diri dalam wujud manusia bersama Asiyah (Istri Fir'aun) dan Ibunda Nabi Isa as Maryam Binti Imran"
       },
       {
         "no": "52",
-        "textOn": "هُنَالِكَ شَدَّ الطَّلْقُ حَزْمَ نِطَاقِهٖ *\nوَ جَاءَ لَهَا السَّاقِيْ بِكَأْسِ هَنَاهَانِ",
+        "textOn": "هُنَالِكَ شَدَّ الطَّلْقُ حَزْمَ نِطَاقِهِ *\nوَ جَاءَ لَهَا السَّاقِيْ بِكَأْسِ هَنَاهَانِ",
         "textOff": "Tatkala memuncak persalinan dan mengencang ikatan sabuknya, datanglah (Malaikat) menuangkan air dari gelas kaca dan membawa hidangan istimewa"
       },
       {
@@ -1492,15 +1421,18 @@
       },
       {
         "no": "54",
-        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهٗ وَ ضَرِيْحَهٗ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ ~",
+        "textOn": "۞ إِلٰهِيَ رَوِّحْ رُوْحَهُ وَ ضَرِيْحَهُ\nبِعَرْفٍ شَذِيٍّ مِنْ صَلٰوةٍ وَ رِضْوَانِ **",
         "textOff": "Ya Tuhanku, Karuniakanlah kesejahteraan kepada ruh dan jasad Nabi Muhammad SAW dengan harum melebihi kasturi berupa Shalawat dan Keridhaan-Mu"
+      },
+      {
+        "textOn": "",
+        "textOff": ""
       }
     ],
     "audioFileName": "albarzanji"
   },
   {
-    "no": "5",
-    "title": "Tholaal Badru ‘Alaina\n( Thola'al badruu alaina )",
+    "title": "Tholaal Badru ‘Alaina\n( طَلَعَ الْبَدْرُ عَلَيْنَا )",
     "descriptionItems": [
       {
         "No": "",
@@ -1514,7 +1446,7 @@
       },
       {
         "No": "2",
-        "textOn": "وَجَبَ الشُّکْرُ عَلَيْنَا *\nمَا دَعَا لِلّهِ دَاعِىْ",
+        "textOn": "وَجَبَ الشُّکْرُ عَلَيْنَا *\nمَا دَعَا لِلّٰهِ دَاعِى",
         "textOff": "Wajiblah bersyukur atas kita semua * untuk terkabulnya apa yang kita mohon kepada Allah"
       },
       {
@@ -1656,13 +1588,16 @@
         "No": "30",
         "textOn": "* صَلَّى اللهُ عَلٰى مُحَمَّدٍ *\n* صَلَّى اللهُ عَلَيْهِ وَ سَلَّمَ *",
         "textOff": "Semoga Allah melimpahkan shalawat atas Muḥammad. Semoga Allah, melimpahkan shalawat, pula salam, baginya"
+      },
+      {
+        "textOn": "",
+        "textOff": ""
       }
     ],
     "audioFileName": "tolaalbadru"
   },
   {
-    "no": "6",
-    "title": "Iilahitam\n( Iilaahitammiminna'ma )",
+    "title": "Iilahitam\n( اِلٰهِىْ تَمِّمِ النَّعْمَآ عَلَيْنَا )",
     "descriptionItems": [
       {
         "textOn": "۞ الهى تمم النعما علينا ۞",
@@ -1707,8 +1642,7 @@
     "audioFileName": "iilahitam"
   },
   {
-    "no": "7",
-    "title": "Sholawat Badriah\n( Sholatullah Shlamullah )",
+    "title": "Sholawat Badriah\n( صَـلاَ ةُ اللهِ سَـلاَ مُ الله )",
     "descriptionItems": [
       {
         "textOn": "۞ الصّلٰوات البدرية ۞",
@@ -1792,13 +1726,16 @@
         "no": "15",
         "textOn": "وَصَلِّ عَـلَى النَّـبِىِّ الْبَـرِّ * \nبـِلاَ عَـدٍّ وَلاَ حَـصْـرِ\nوَاَلٍ سَـادَةٍ غُــــرِّ * \nبِاَ هْـلِ الْبَـدْ رِ يـَا اَللهُ",
         "textOff": "Dan limpahkanlah Sholawat kepada Nabi yang berbakti * tanpa terhitung tanpa batas.\nJuga kepada segenap keluarga yang berjuang dengan gagah perkasa * berkat pejuang Badar ya"
+      },
+      {
+        "textOn": "",
+        "textOff": ""
       }
     ],
     "audioFileName": "sholawat_badriah"
   },
   {
-    "no": "8",
-    "title": "Sholawat Nahdlatain\n( Allahummainnanasaluka )",
+    "title": "Sholawat Nahdlatain\n( اَللَّهُمَّ إِنَّا نَسْأَلُكَ بِك )",
     "descriptionItems": [
       {
         "textOn": "۞ صَلاَةُ النَّهْضَتَيْنِ ۞",
@@ -1807,13 +1744,16 @@
       {
         "textOn": "اَللَّهُمَّ إِنَّا نَسْأَلُكَ بِكَ أَنْ تُصَلِّيَ وَتُسَلِّمَ عَلَى سَـيِّدِنَا مُحَمَّدٍ وَعَلَى سَائِرِ الْاَنْبِيَاءِ وَالْمُرْسَلِيْنَ وَعَلَى اٰلِهِمْ وَصَحْبِهِمْ أَجْمَعِيْنَ وَأَنْ تُعَمِّرَ نَهْضَةَ الْوَطَنِ وَنَهْضَةَ الْبَنَاتِ بِفُرُوْعِهِمَا إِلَى يَوْمِ الدِّيْنِ وَأَنْ تَنْصُرَنَا وَتَفْتَحَ عَلَيْنَا وَتَرْزُقَنَا وَتَحْفَظَنَا وَتَغْفِرَ لَنَا وَلِجَمِيْعِ الْمُسْلِمِيْنَ يَا اَللّٰهُ يَا حَيُّ يَاقَيُّوْمُ لاَ إِلٰهَ إِلَّا اَنْتَ.",
         "textOff": "Ya Allah kami mohon dengan berkat kebesaran-Mu, semoga Engkau berkenan mencurahkan siraman rahmat dan kesejahteraan bagi junjungan kami, Nabi Muhammad SAW, juga bagi semua Nabi dan Rasul serta keluarga dan sahabat mereka, semoga Engkau berkenan juga memakmurkan NWDI dan NBDI serta cabang-cabangnya sampai Hari Kemudian, dan semoga Engkau berkenan menolong kami, membuka pintu rahmat dan barakah-Mu bagi kami, memberikan kami rezeki, melindungi dan mengampuni kami serta semua kaum muslimin, wahai Allah, wahai Tuhan Yang Maha Hidup, wahai Tuhan yang terus menerus mengurus makhluk-Nya, Tiada Tuhan selain Engkau."
+      },
+      {
+        "textOn": "",
+        "textOff": ""
       }
     ],
     "audioFileName": "sholawat_nahdlatain"
   },
   {
-    "no": "9",
-    "title": "Lillahi Zainuddin\n( Lillahizainuddini fi fadlihi )",
+    "title": "Lillahi Zainuddin\n( لِلّٰهِ زَيْنُ الـدِّيْـن )",
     "descriptionItems": [
       {
         "no": "1",
@@ -1874,8 +1814,7 @@
     "audioFileName": "lillahizainuddin"
   },
   {
-    "no": "10",
-    "title": "Do’a Pusaka\n( Robbanampa'nabima 'allamtana )",
+    "title": "Do’a Pusaka\n( رَ بَّنَا ا نْفَعْنَا ِبمَا عَلَّمْتَنَا )",
     "descriptionItems": [
       {
         "No": "1",
@@ -1981,7 +1920,6 @@
     "audioFileName": "doa_pusaka"
   },
   {
-    "no": "11",
     "title": "Do’a Do’a\n( صَلِّ وَسَلِّمْ عَلَى النَّبِيِّ )",
     "descriptionItems": [
       {
@@ -2005,7 +1943,7 @@
       },
       {
         "no": "4",
-        "textOn": "وَصَلَّى اللهُ عَلٰى خَيْرِ خَلْقِهٖ وَنُوْرِ عَرْشِهٖ وَمَطْهَرِ لُطْفِهٖ سَيِّدِنَا وَحَبِيْبِنَا وَشَفِيْعِنَا مُحَمَّدٍ وَعَلٰى أٰلِهِ وَصَحْبِهٖ وَسَلَّمَ ،",
+        "textOn": "وَصَلَّى اللهُ عَلٰى خَيْرِ خَلْقِهِ وَنُوْرِ عَرْشِهِ وَمَطْهَرِ لُطْفِهِ سَيِّدِنَا وَحَبِيْبِنَا وَشَفِيْعِنَا مُحَمَّدٍ وَعَلٰى أٰلِهِ وَصَحْبِهِ وَسَلَّمَ ،",
         "textOff": "Serta semoga shalawat senantiasa tercurahkan kepada sebaik-baik ciptaan Allah, cahaya Arasy- Nya, Penjelmaan kehalusan-Nya, sang junjungan kami, penolong kami dialah Nabi Muhammad SAW, juga bagi segenap keluarga dan para sahabatnya, semoga mereka semua senantiasa memperoleh keselamatan."
       },
       {
@@ -2017,6 +1955,10 @@
         "no": "6",
         "textOn": "وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِينَ ،",
         "textOff": "Salam sejahtera atas para rasul dan segala puji bagi Allah Tuhan semesta alam. Amin."
+      },
+      {
+        "textOn": "",
+        "textOff": ""
       }
     ],
     "audioFileName": "doa_doa"

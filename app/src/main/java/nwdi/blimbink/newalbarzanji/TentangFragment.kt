@@ -38,17 +38,16 @@ class TentangFragment : Fragment() {
         val recyclerView: RecyclerView = view.findViewById(R.id.recyclerview_tentang)
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
-        // Read and parse JSON file
-        val jsonString = context?.resources?.openRawResource(R.raw.items_tentang)?.bufferedReader()
-            .use { it?.readText() }
-        val itemsType = object : TypeToken<List<Item>>() {}.type
-        val items: List<Item> = Gson().fromJson(jsonString, itemsType)
+        // Load JSON from assets
+        val jsonString = requireContext().assets.open("items_tentang.json").bufferedReader().use { it.readText() }
+        val items: List<Item> =
+            Gson().fromJson(jsonString, object : TypeToken<List<Item>>() {}.type)
 
         val adapter = AdapterCardTentang(items.map { it.textOn to it.textOff })
         recyclerView.adapter = adapter
 
         // Handle ImageButton click
-        val chatButton: ImageButton = view.findViewById(R.id.tentang_chat)
+        val chatButton: ImageButton = view.findViewById(R.id.tentang_setelan)
         chatButton.setOnClickListener {
             val intent = Intent(activity, SettingActivity::class.java)
             startActivity(intent)

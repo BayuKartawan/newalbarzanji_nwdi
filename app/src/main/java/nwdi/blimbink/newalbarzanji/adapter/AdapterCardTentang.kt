@@ -6,7 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import nwdi.blimbink.newalbarzanji.utils.TextAnimationUtils
 
+@Suppress("DEPRECATION")
 class AdapterCardTentang(private val items: List<Pair<String, String>>) :
     RecyclerView.Adapter<AdapterCardTentang.TextViewHolder>() {
 
@@ -14,12 +16,25 @@ class AdapterCardTentang(private val items: List<Pair<String, String>>) :
         val cardTeksOn: TextView = view.findViewById(R.id.itemcard_tentang_on)
         val cardTeksOff: TextView = view.findViewById(R.id.itemcard_tentang_off)
 
+        private var isAnimating = false
         init {
             cardTeksOn.setOnClickListener {
-                cardTeksOff.visibility = if (cardTeksOff.visibility == View.VISIBLE) {
-                    View.GONE
+                if (isAnimating) return@setOnClickListener
+
+                if (cardTeksOff.visibility == View.VISIBLE) {
+                    // Hide the text with animation
+                    TextAnimationUtils.hideTextWithAnimation(cardTeksOff, TextAnimationUtils.calculateDuration(cardTeksOff.text.length))
                 } else {
-                    View.VISIBLE
+                    // Make the text visible and animate it
+                    cardTeksOff.visibility = View.VISIBLE
+                    cardTeksOff.text = items[adapterPosition].second
+                    TextAnimationUtils.showTextWithAnimation(
+                        cardTeksOff,
+                        cardTeksOff.text.toString(),
+                        TextAnimationUtils.calculateDuration(cardTeksOff.text.length)
+                    ) {
+                        isAnimating = false
+                    }
                 }
             }
         }

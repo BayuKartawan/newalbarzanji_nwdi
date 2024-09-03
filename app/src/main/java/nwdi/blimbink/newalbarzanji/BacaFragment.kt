@@ -16,6 +16,11 @@ data class ItemBaca(
     val textOff: String
 )
 
+data class Description(
+    val title: String,
+    val descriptionItems: List<ItemBaca>
+)
+
 @Suppress("DEPRECATION")
 class BacaFragment : Fragment() {
 
@@ -50,41 +55,45 @@ class BacaFragment : Fragment() {
         val toolbar: Toolbar = view.findViewById(R.id.toolbar_baca)
         (activity as? AppCompatActivity)?.setSupportActionBar(toolbar)
 
-        // Load items from raw resources
-        items = loadItemsFromRawResources()
+        // Load items from descriptions.json
+        items = loadItemsFromJson()
 
         // Set up the adapter
         adapter = AdapterCardTeks(requireContext(), items.map { it.textOn to it.textOff })
         recyclerView.adapter = adapter
     }
 
-    private fun loadItemsFromRawResources(): List<ItemBaca> {
-        val rawResources = listOf(
-            R.raw.items_daftarisi_qiroatul,
-            R.raw.items_daftarisi_sholawatnahdlatain,
-            R.raw.items_daftarisi_sholawatfatih,
-            R.raw.items_daftarisi_albarzanji,
-            R.raw.items_daftarisi_tholaalbadru,
-            R.raw.items_daftarisi_iilahitam,
-            R.raw.items_daftarisi_sholawatbadriah,
-            R.raw.items_daftarisi_doadoa
+    // Load specific items from descriptions.json based on selected titles
+    private fun loadItemsFromJson(): List<ItemBaca> {
+        // Titles that we want to display
+        val titlesToDisplay = listOf(
+            "Qiroatul Fatihah\n( قِرَاءَةُ الْفَاتِحَة )",
+            "Sholawat Nahdlatain\n( اَللَّهُمَّ إِنَّا نَسْأَلُكَ بِك )",
+            "Sholawat Fatih\n( صَلاَةُ الْفَاتِحِ )",
+            "Al - Barzanji\n( اَلْجَنَّةُ وَ نَعِيْمُهَا )",
+            "Tholaal Badru ‘Alaina\n( طَلَعَ الْبَدْرُ عَلَيْنَا )",
+            "Sholawat Badriah\n( صَـلاَ ةُ اللهِ سَـلاَ مُ الله )",
+            "Iilahitam\n( اِلٰهِىْ تَمِّمِ النَّعْمَآ عَلَيْنَا )",
+            "Do’a Do’a\n( صَلِّ وَسَلِّمْ عَلَى النَّبِيِّ )",
         )
 
-        val items = mutableListOf<ItemBaca>()
-        val gson = Gson()
-        val itemsType = object : TypeToken<List<ItemBaca>>() {}.type
+        // Load JSON from assets
+        val jsonString = requireContext().assets.open("descriptions.json").bufferedReader().use { it.readText() }
+        val descriptions: List<Description> =
+            Gson().fromJson(jsonString, object : TypeToken<List<Description>>() {}.type)
 
-        rawResources.forEach { resId ->
-            val jsonString =
-                context?.resources?.openRawResource(resId)?.bufferedReader().use { it?.readText() }
-            jsonString?.let {
-                val newItems: List<ItemBaca> = gson.fromJson(it, itemsType)
-                items.addAll(newItems)
-            }
+        // Create a mutable list to hold the items in the correct order
+        val orderedItems = mutableListOf<ItemBaca>()
+
+        // Iterate through the titlesToDisplay in the specified order
+        for (title in titlesToDisplay) {
+            // Find the corresponding description for each title
+            val description = descriptions.find { it.title == title }
+            // If found, add all its descriptionItems to the orderedItems list
+            description?.descriptionItems?.let { orderedItems.addAll(it) }
         }
 
-        return items
-    }
+        return orderedItems    }
 
     @Deprecated("Deprecated in Java")
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -128,7 +137,4 @@ class BacaFragment : Fragment() {
 
         return super.onOptionsItemSelected(item)
     }
-
-
-
 }

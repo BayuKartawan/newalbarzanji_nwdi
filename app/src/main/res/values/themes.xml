@@ -31,7 +31,7 @@
     <style name="scroll_bar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:scrollbarThumbVertical">@color/hijau</item>
+        <item name="android:scrollbarThumbVertical">@color/hijau_tombol2</item>
         <item name="android:scrollbars">vertical</item>
     </style>
     <!--  setting  -->

@@ -30,16 +30,16 @@ class DaftarIsiFragment : Fragment() {
         toolbar.title = "Daftar isi"
 
         originalItems = listOf(
-            "Qiroatul Fatihah\n( Qiroatul Fatihah Lisayyidina )",
-            "Surah YaaSin\n( YaaSin )",
-            "Sholawat Fatih\n(  )",
-            "Al - Barzanji\n( Aljannatu wa na'imuha )",
-            "Tholaal Badru ‘Alaina\n( Thola'al badruu alaina )",
-            "Iilahitam\n( Iilaahitammiminna'ma )",
-            "Sholawat Badriah\n( Sholatullah Shlamullah )",
-            "Sholawat Nahdlatain\n( Allahummainnanasaluka )",
-            "Lillahi Zainuddin\n( Lillahizainuddini fi fadlihi )",
-            "Do’a Pusaka\n( Robbanampa'nabima 'allamtana )",
+            "Qiroatul Fatihah\n( قِرَاءَةُ الْفَاتِحَة )",
+            "Surah YaaSin\n( يٰسٓ )",
+            "Sholawat Fatih\n( صَلاَةُ الْفَاتِحِ )",
+            "Al - Barzanji\n( اَلْجَنَّةُ وَ نَعِيْمُهَا )",
+            "Tholaal Badru ‘Alaina\n( طَلَعَ الْبَدْرُ عَلَيْنَا )",
+            "Iilahitam\n( اِلٰهِىْ تَمِّمِ النَّعْمَآ عَلَيْنَا )",
+            "Sholawat Badriah\n( صَـلاَ ةُ اللهِ سَـلاَ مُ الله )",
+            "Sholawat Nahdlatain\n( اَللَّهُمَّ إِنَّا نَسْأَلُكَ بِك )",
+            "Lillahi Zainuddin\n( لِلّٰهِ زَيْنُ الـدِّيْـن )",
+            "Do’a Pusaka\n( رَ بَّنَا ا نْفَعْنَا ِبمَا عَلَّمْتَنَا )",
             "Do’a Do’a\n( صَلِّ وَسَلِّمْ عَلَى النَّبِيِّ )",
         )
 
