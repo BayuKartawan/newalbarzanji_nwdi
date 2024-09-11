@@ -12,20 +12,24 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_detail"
+            style="@style/toolbar_global"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingEnd="50dp"
-            style="@style/toolbar_detail"
+            android:paddingEnd="60dp"
             app:navigationIcon="@drawable/icon_kembali"
-            tools:ignore="TextSizeCheck">
+            tools:ignore="RtlSymmetry,TextSizeCheck">
 
-            <TextView
-                android:id="@+id/detail_title"
-                style="@style/layout_heigh_width_mm"
-                android:gravity="center"
-                android:text="Detail Title\nاستيالبسيال"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
+            <RelativeLayout style="@style/layout_heigh_width_mm">
+
+                <TextView
+                    android:id="@+id/detail_title"
+                    style="@style/layout_heigh_width_ww"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Detail Title\nاستيالبسيال"
+                    android:textColor="@color/color_selector_h_w"
+                    android:textSize="16sp" />
+            </RelativeLayout>
         </androidx.appcompat.widget.Toolbar>
 
         <androidx.recyclerview.widget.RecyclerView
@@ -41,8 +45,8 @@
         android:contentDescription="asasa"
         android:elevation="1dp"
         android:src="@drawable/icon_play"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/color_selector_h_w"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

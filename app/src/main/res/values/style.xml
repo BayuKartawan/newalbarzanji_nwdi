@@ -12,19 +12,22 @@
         <item name="android:textFontWeight" tools:targetApi="p">300</item>
     </style>
 
-    <style name="BottomNavigationTextAppearance" parent="TextAppearance.AppCompat.Medium">
-        <item name="android:textSize">13sp</item>
-    </style>
-
     <style name="ToolbarTittleTextAppearance" parent="TextAppearance.AppCompat.Medium">
         <item name="android:textSize">16sp</item>
     </style>
 
     <!-- Style ini saya gunakan di navigasi bar, jika tombol active-->
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
-        <item name="android:color">@color/white</item>
-        <item name="itemIconTint">@color/hijau</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:color">@color/hijau_tombol1</item>
+    </style>
+    <style name="CustomBottomNavTextAppearanceActive" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item> <!-- Ukuran teks saat item aktif -->
+        <item name="android:textColor">@color/hijau</item> <!-- Warna teks aktif -->
+    </style>
+
+    <style name="CustomBottomNavTextAppearanceInactive" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item> <!-- Ukuran teks saat item tidak aktif -->
+        <item name="android:textColor">@color/black</item> <!-- Warna teks tidak aktif -->
     </style>
 
     <!--    Card Teks-->
@@ -50,9 +53,7 @@
         <item name="cardBackgroundColor">@color/white</item>
     </style>
 
-    <style name="color_bg_tentangheader">
-        <item name="android:background">@color/hijau</item>
-    </style>
+
 
     <!--  INTROO STYLE  -->
     <style name="style_intro_footerbawah">
@@ -88,18 +89,12 @@
     </style>
     <!--  style toolbar  -->
     <style name="toolbar_global">
-        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">40dp</item>
-        <item name="android:background">@color/hijau</item>
-        <item name="titleTextColor">@color/white</item>
+        <item name="android:background">@color/white</item>
         <item name="titleTextAppearance">@style/ToolbarTittleTextAppearance</item>
     </style>
 
-    <style name="toolbar_detail">
-        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
-        <item name="android:background">@color/hijau</item>
-    </style>
     <!--    setelan  -->
     <style name="seekbar_seelan">
         <item name="android:layout_width">0dp</item>

@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="@drawable/color_selector_mode"
     style="@style/layout_heigh_width_mm"
     android:orientation="vertical"
     tools:context=".SettingActivity">
@@ -11,7 +12,9 @@
         android:id="@+id/toolbar_setelan"
         style="@style/toolbar_global"
         app:navigationIcon="@drawable/icon_kembali"
-        app:title="Setelan" />
+        app:title="Setelan"
+        app:navigationIconTint="@color/hijau"
+        app:titleTextColor="@color/color_selector_h_w" />
 
     <FrameLayout
         style="@style/bg_tema"

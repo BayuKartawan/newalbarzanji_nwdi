@@ -1,12 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.NewAlBarzanji" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:colorBackground">@color/mode_siang</item>
+        <item name="android:colorBackground">@color/white</item>
         <item name="android:statusBarColor">@color/hijau</item>
-        <item name="android:navigationBarColor">@color/mode_siang</item>
+        <!--        <item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:navigationBarColor">@color/white</item>
     </style>
 
-    <style name="Theme.NewAlBarzanji" parent="Base.Theme.NewAlBarzanji" />
+    <style name="Theme.NewAlBarzanji" parent="Base.Theme.NewAlBarzanji"/>
+
 
     <!--    card teks-->
     <style name="theme_color_backgroundStroke">
@@ -15,9 +17,10 @@
 
     <!--    navbar-->
     <style name="navbarstyle">
-        <item name="itemIconTint">@color/nav_item_color_selector</item>
-        <item name="android:background">@color/mode_siang</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/hijau</item>
     </style>
+
 
     <!--    warna font -->
     <style name="color_font_theme">
@@ -38,16 +41,20 @@
     <style name="bg_tema">
         <item name="android:background">@color/white</item>
     </style>
+
     <style name="bg_viewseek">
         <item name="android:background">@color/hijau</item>
     </style>
+
     <style name="teks_headerseek">
         <item name="android:textColor">@color/black</item>
     </style>
+
     <style name="teks_anakseek">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/black</item>
     </style>
+
 </resources>

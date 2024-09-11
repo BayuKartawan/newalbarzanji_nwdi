@@ -1,29 +1,38 @@
 package nwdi.blimbink.newalbarzanji
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Handler
 import android.os.Looper
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
 import android.annotation.SuppressLint
-import android.content.Intent
 
-@SuppressLint("CustomSplashScreen")
+@SuppressLint("CustomSplashScreen") // Menonaktifkan peringatan penggunaan SplashScreen kustom yang tidak disarankan
 class IntroActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_intro)
+        enableEdgeToEdge() // Mengaktifkan mode edge-to-edge untuk tampilan layar penuh
+        setContentView(R.layout.activity_intro) // Mengatur layout activity_intro sebagai tampilan activity ini
+        navigateToMainActivityAfterDelay() // Memanggil fungsi untuk berpindah ke MainActivity setelah penundaan
+    }
 
+    private fun navigateToMainActivityAfterDelay() {
+        // Membuat Handler yang berjalan di main thread dan menunda eksekusi kode di dalam lambda
         Handler(Looper.getMainLooper()).postDelayed({
-            goToMainActivity()
-        }, 3000L)
+            goToMainActivity() // Memanggil fungsi untuk berpindah ke MainActivity
+        }, DELAY_MS) // Menetapkan penundaan dalam milidetik sebelum eksekusi
     }
 
     private fun goToMainActivity() {
-        Intent(this, MainActivity::class.java).also {
-            startActivity(it)
-            finish()
-        }
+        // Membuat intent untuk berpindah ke MainActivity dan memulai activity baru
+        startActivity(Intent(this, MainActivity::class.java))
+        finish() // Menutup IntroActivity sehingga tidak bisa kembali ke layar ini
+    }
+
+    companion object {
+        // Menyimpan nilai konstanta untuk durasi penundaan sebelum berpindah ke MainActivity
+        private const val DELAY_MS = 3000L
     }
 }

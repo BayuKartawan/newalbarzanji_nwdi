@@ -11,8 +11,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
 
+    // Deklarasi variabel untuk BottomNavigationView
     private lateinit var bottomNavigationView: BottomNavigationView
 
+    // Fungsi untuk mengatur visibilitas tombol toggle navigation
     fun setBtnToggleNavVisibility(visibility: Int) {
         val btnToggleNav = findViewById<ImageButton>(R.id.btn_toggle_nav)
         btnToggleNav.visibility = visibility
@@ -22,10 +24,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Menginisialisasi BottomNavigationView dan tombol toggle
         bottomNavigationView = findViewById(R.id.nav_bawah)
         val toggleButton: ImageButton = findViewById(R.id.btn_toggle_nav)
 
+        // Mengatur aksi klik pada tombol toggle
         toggleButton.setOnClickListener {
+            // Menyembunyikan atau menampilkan BottomNavigationView saat tombol diklik
             if (bottomNavigationView.visibility == View.VISIBLE) {
                 bottomNavigationView.visibility = View.GONE
             } else {
@@ -33,24 +38,29 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        // Mengatur listener untuk item yang dipilih di BottomNavigationView
         bottomNavigationView.setOnItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.NavDaftarIsi -> {
+                    // Mengganti fragmen dengan DaftarIsiFragment
                     replaceFragment(DaftarIsiFragment())
                     true
                 }
 
                 R.id.NavBaca -> {
+                    // Mengganti fragmen dengan BacaFragment
                     replaceFragment(BacaFragment())
                     true
                 }
 
                 R.id.NavLagu -> {
+                    // Mengganti fragmen dengan LaguFragment
                     replaceFragment(LaguFragment())
                     true
                 }
 
                 R.id.NavTentang -> {
+                    // Mengganti fragmen dengan TentangFragment
                     replaceFragment(TentangFragment())
                     true
                 }
@@ -58,15 +68,18 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
+        // Menampilkan BacaFragment saat aplikasi pertama kali dibuka
         replaceFragment(BacaFragment())
     }
 
+    // Fungsi untuk mengganti fragmen yang ditampilkan
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction().replace(R.id.frame_container, fragment).commit()
     }
 
-    @Deprecated("This method has been deprecated in favor of using the\n      {@link OnBackPressedDispatcher} via {@link #getOnBackPressedDispatcher()}.\n      The OnBackPressedDispatcher controls how back button events are dispatched\n      to one or more {@link OnBackPressedCallback} objects.")
+    @Deprecated("Metode ini telah usang dan digantikan oleh OnBackPressedDispatcher.")
     override fun onBackPressed() {
+        // Memeriksa fragmen saat ini dan menampilkan dialog konfirmasi keluar jika diperlukan
         val currentFragment = supportFragmentManager.findFragmentById(R.id.frame_container)
         if (currentFragment is BacaFragment || currentFragment is DaftarIsiFragment || currentFragment is LaguFragment || currentFragment is TentangFragment) {
             showExitConfirmationDialog()
@@ -75,6 +88,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // Menampilkan dialog konfirmasi saat ingin keluar dari aplikasi
     private fun showExitConfirmationDialog() {
         val builder = AlertDialog.Builder(this)
         builder.setTitle("⚠\uFE0F Keluar Aplikasi")

@@ -25,38 +25,49 @@ class SettingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_setting)
 
-        // Initialize SharedPreferences
-        sharedPreferences = getSharedPreferences("AppSettings", MODE_PRIVATE)
+        // Inisialisasi SharedPreferences untuk menyimpan pengaturan aplikasi
+        initializeSharedPreferences()
 
-        // Initialize Views
+        // Inisialisasi elemen tampilan (views) dari layout
+        initializeViews()
+
+        // Set up listener untuk elemen tampilan agar dapat merespons interaksi pengguna
+        initializeListeners()
+
+        // Menyiapkan toolbar dengan tombol navigasi
+        setupToolbar()
+    }
+
+    private fun initializeSharedPreferences() {
+        // Mendapatkan SharedPreferences untuk menyimpan pengaturan aplikasi
+        sharedPreferences = getSharedPreferences("AppSettings", MODE_PRIVATE)
+    }
+
+    private fun initializeViews() {
+        // Menghubungkan elemen tampilan dengan ID dari layout XML
         fontSizeLatinSeekBar = findViewById(R.id.seekbar_fontsize_latin)
         fontSizeArabicSeekBar = findViewById(R.id.seekbar_fontsize_arab)
         fontSizeLatinValueTextView = findViewById(R.id.textview_fontsize_latin)
         fontSizeArabicValueTextView = findViewById(R.id.textview_fontsize_arab)
 
-        // Set initial value of SeekBar and TextView
+        // Mengatur nilai awal SeekBar dan TextView sesuai dengan pengaturan yang disimpan
         fontSizeLatinSeekBar.progress = sharedPreferences.getInt("FontSizeLatin", 16)
         fontSizeArabicSeekBar.progress = sharedPreferences.getInt("FontSizeArabic", 24)
         fontSizeLatinValueTextView.text = fontSizeLatinSeekBar.progress.toString()
         fontSizeArabicValueTextView.text = fontSizeArabicSeekBar.progress.toString()
+    }
 
-        // Set up SeekBar change listener
+    @SuppressLint("UseSwitchCompatOrMaterialCode")
+    private fun initializeListeners() {
+        // Mengatur listener untuk SeekBar untuk mengubah ukuran font
         setupSeekBarListener(fontSizeLatinSeekBar, fontSizeLatinValueTextView, "FontSizeLatin")
         setupSeekBarListener(fontSizeArabicSeekBar, fontSizeArabicValueTextView, "FontSizeArabic")
 
-        // Handle night mode switch
+        // Mengatur listener untuk Switch untuk mengaktifkan/menonaktifkan mode malam
         val nightModeSwitch = findViewById<Switch>(R.id.switch1)
         nightModeSwitch.isChecked = isNightModeEnabled()
         nightModeSwitch.setOnCheckedChangeListener { _, isChecked ->
             updateNightMode(isChecked)
-        }
-
-        // Navigasi Keluar Toolbar
-        val toolbar: Toolbar = findViewById(R.id.toolbar_setelan)
-        setSupportActionBar(toolbar)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        toolbar.setNavigationOnClickListener {
-            onBackPressed()
         }
     }
 
@@ -65,35 +76,53 @@ class SettingActivity : AppCompatActivity() {
         valueTextView: TextView,
         preferenceKey: String
     ) {
+        // Mengatur listener untuk SeekBar yang menangani perubahan nilai
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
+                // Mengupdate TextView dengan nilai SeekBar yang baru
                 valueTextView.text = progress.toString()
+                // Menyimpan ukuran font ke SharedPreferences
                 saveFontSize(preferenceKey, progress)
             }
 
             override fun onStartTrackingTouch(seekBar: SeekBar?) {
-                // Optional: Add code here if needed when tracking starts
+                // Opsional: Menambahkan kode jika diperlukan saat tracking dimulai
             }
 
             override fun onStopTrackingTouch(seekBar: SeekBar?) {
-                // Optional: Add code here if needed when tracking stops
+                // Opsional: Menambahkan kode jika diperlukan saat tracking berhenti
             }
         })
     }
 
     private fun saveFontSize(key: String, size: Int) {
+        // Menyimpan ukuran font ke SharedPreferences
         sharedPreferences.edit().putInt(key, size).apply()
     }
 
     private fun isNightModeEnabled(): Boolean {
+        // Mengecek apakah mode malam saat ini aktif
         val currentNightMode = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK
         return currentNightMode == Configuration.UI_MODE_NIGHT_YES
     }
 
     private fun updateNightMode(isNightMode: Boolean) {
+        // Mengubah mode malam sesuai dengan status yang dipilih
         val mode = if (isNightMode) AppCompatDelegate.MODE_NIGHT_YES else AppCompatDelegate.MODE_NIGHT_NO
         AppCompatDelegate.setDefaultNightMode(mode)
+        // Menyimpan pengaturan mode malam ke SharedPreferences
         sharedPreferences.edit().putBoolean("NightMode", isNightMode).apply()
+        // Memuat ulang Activity untuk menerapkan perubahan
         recreate()
+    }
+
+    private fun setupToolbar() {
+        // Mengatur toolbar dan menambahkan tombol navigasi untuk kembali
+        val toolbar: Toolbar = findViewById(R.id.toolbar_setelan)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        toolbar.setNavigationOnClickListener {
+            onBackPressed()
+        }
     }
 }

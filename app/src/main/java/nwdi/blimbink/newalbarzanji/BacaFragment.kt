@@ -11,11 +11,13 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import nwdi.blimbink.newalbarzanji.adapter.AdapterCardTeks
 
+// Data class untuk menyimpan item baca dengan teks yang ditampilkan dan tersembunyi
 data class ItemBaca(
     val textOn: String,
     val textOff: String
 )
 
+// Data class untuk deskripsi yang berisi judul dan daftar item baca
 data class Description(
     val title: String,
     val descriptionItems: List<ItemBaca>
@@ -30,42 +32,41 @@ class BacaFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setHasOptionsMenu(true) // Mengindikasikan bahwa fragment memiliki menu
+        setHasOptionsMenu(true) // Menandakan bahwa fragment ini memiliki menu
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+        // Menginflate layout untuk fragment ini
         return inflater.inflate(R.layout.fragment_baca, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Mengatur visibilitas btn_toggle_nav menjadi VISIBLE
+        // Menampilkan tombol navigasi di activity utama
         (activity as? MainActivity)?.setBtnToggleNavVisibility(View.VISIBLE)
 
-        // Initialize RecyclerView
+        // Menginisialisasi RecyclerView dan menetapkan layout manager
         recyclerView = view.findViewById(R.id.recyclerview_baca)
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
-        // Set Toolbar as ActionBar
+        // Mengatur Toolbar sebagai ActionBar
         val toolbar: Toolbar = view.findViewById(R.id.toolbar_baca)
         (activity as? AppCompatActivity)?.setSupportActionBar(toolbar)
 
-        // Load items from descriptions.json
+        // Memuat data item dari file JSON
         items = loadItemsFromJson()
 
-        // Set up the adapter
+        // Mengatur adapter untuk RecyclerView
         adapter = AdapterCardTeks(requireContext(), items.map { it.textOn to it.textOff })
         recyclerView.adapter = adapter
     }
 
-    // Load specific items from descriptions.json based on selected titles
+    // Memuat item dari file JSON berdasarkan judul yang dipilih
     private fun loadItemsFromJson(): List<ItemBaca> {
-        // Titles that we want to display
         val titlesToDisplay = listOf(
             "Qiroatul Fatihah\n( قِرَاءَةُ الْفَاتِحَة )",
             "Sholawat Nahdlatain\n( اَللَّهُمَّ إِنَّا نَسْأَلُكَ بِك )",
@@ -74,35 +75,35 @@ class BacaFragment : Fragment() {
             "Tholaal Badru ‘Alaina\n( طَلَعَ الْبَدْرُ عَلَيْنَا )",
             "Sholawat Badriah\n( صَـلاَ ةُ اللهِ سَـلاَ مُ الله )",
             "Iilahitam\n( اِلٰهِىْ تَمِّمِ النَّعْمَآ عَلَيْنَا )",
-            "Do’a Do’a\n( صَلِّ وَسَلِّمْ عَلَى النَّبِيِّ )",
+            "Do’a Do’a\n( صَلِّ وَسَلِّمْ عَلَى النَّبِيِّ )"
         )
 
-        // Load JSON from assets
+        // Membaca JSON dari assets
         val jsonString = requireContext().assets.open("descriptions.json").bufferedReader().use { it.readText() }
         val descriptions: List<Description> =
             Gson().fromJson(jsonString, object : TypeToken<List<Description>>() {}.type)
 
-        // Create a mutable list to hold the items in the correct order
+        // Membuat daftar item yang terurut sesuai judul yang ditampilkan
         val orderedItems = mutableListOf<ItemBaca>()
 
-        // Iterate through the titlesToDisplay in the specified order
-        for (title in titlesToDisplay) {
-            // Find the corresponding description for each title
-            val description = descriptions.find { it.title == title }
-            // If found, add all its descriptionItems to the orderedItems list
-            description?.descriptionItems?.let { orderedItems.addAll(it) }
+        // Mengisi orderedItems dengan item deskripsi berdasarkan judul yang ditampilkan
+        titlesToDisplay.forEach { title ->
+            descriptions.find { it.title == title }?.descriptionItems?.let { orderedItems.addAll(it) }
         }
 
-        return orderedItems    }
+        return orderedItems
+    }
 
     @Deprecated("Deprecated in Java")
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        // Menginflate menu dari resource
         inflater.inflate(R.menu.toolbar_menu, menu)
         super.onCreateOptionsMenu(menu, inflater)
     }
 
     @Deprecated("Deprecated in Java")
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        // Menentukan posisi item dalam daftar berdasarkan ID menu
         val position = when (item.itemId) {
             R.id.menu_items_daftarisi_qiroatul -> items.indexOfFirst { it.textOn == "۞ قِرَاءَةُ الْفَاتِحَةِ ۞" }
             R.id.menu_items_daftarisi_sholawatnahdlatain -> items.indexOfFirst { it.textOn == "۞ صَلاَةُ النَّهْضَتَيْنِ ۞" }
@@ -116,18 +117,13 @@ class BacaFragment : Fragment() {
         }
 
         if (position != -1) {
-            // Langkah 1: Smooth scroll to the position
+            // Melakukan scroll halus ke posisi yang ditentukan dan menyesuaikan tampilan
             recyclerView.smoothScrollToPosition(position)
-
-            // Langkah 2: Setelah smooth scroll selesai, gunakan scrollToPositionWithOffset
             recyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
                 override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
                     super.onScrollStateChanged(recyclerView, newState)
                     if (newState == RecyclerView.SCROLL_STATE_IDLE) {
-                        // Menghapus listener untuk menghindari callback yang tidak perlu
                         recyclerView.removeOnScrollListener(this)
-
-                        // Pindahkan item ke bagian atas layar
                         val layoutManager = recyclerView.layoutManager as LinearLayoutManager
                         layoutManager.scrollToPositionWithOffset(position, 0)
                     }

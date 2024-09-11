@@ -6,30 +6,37 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import nwdi.blimbink.newalbarzanji.R
 import nwdi.blimbink.newalbarzanji.utils.TextAnimationUtils
 
 @Suppress("DEPRECATION")
-class AdapterCardTeks(private val context: Context, private val items: List<Pair<String, String>>) :
-    RecyclerView.Adapter<AdapterCardTeks.TextViewHolder>() {
+class AdapterCardTeks(
+    private val context: Context,  // Konteks aplikasi untuk mengakses sumber daya
+    private val items: List<Pair<String, String>>  // Daftar item yang akan ditampilkan, masing-masing item adalah pasangan teks
+) : RecyclerView.Adapter<AdapterCardTeks.TextViewHolder>() {
 
+    // Kelas untuk menyimpan referensi ke tampilan dalam item RecyclerView
     inner class TextViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val cardTeksOn: TextView = view.findViewById(R.id.card_teks_on)
-        val cardTeksOff: TextView = view.findViewById(R.id.card_teks_off)
+        val cardTeksOn: TextView = view.findViewById(R.id.card_teks_on)  // Teks yang selalu terlihat
+        val cardTeksOff: TextView = view.findViewById(R.id.card_teks_off)  // Teks yang akan ditampilkan saat di-click
 
-        private var isAnimating = false
+        private var isAnimating = false  // Menandakan apakah animasi sedang berlangsung
 
         init {
+            // Menangani klik pada cardTeksOn
             cardTeksOn.setOnClickListener {
+                // Jika animasi sedang berlangsung, tidak melakukan apa-apa
                 if (isAnimating) return@setOnClickListener
 
                 if (cardTeksOff.visibility == View.VISIBLE) {
-                    // Hide the text with animation
-                    TextAnimationUtils.hideTextWithAnimation(cardTeksOff, TextAnimationUtils.calculateDuration(cardTeksOff.text.length))
+                    // Menyembunyikan teks dengan animasi
+                    TextAnimationUtils.hideTextWithAnimation(
+                        cardTeksOff,
+                        TextAnimationUtils.calculateDuration(cardTeksOff.text.length)
+                    )
                 } else {
-                    // Make the text visible and animate it
+                    // Menampilkan teks dan menambahkan animasi
                     cardTeksOff.visibility = View.VISIBLE
                     cardTeksOff.text = items[adapterPosition].second
                     TextAnimationUtils.showTextWithAnimation(
@@ -37,66 +44,65 @@ class AdapterCardTeks(private val context: Context, private val items: List<Pair
                         cardTeksOff.text.toString(),
                         TextAnimationUtils.calculateDuration(cardTeksOff.text.length)
                     ) {
-                        isAnimating = false
+                        isAnimating = false  // Mengatur status animasi setelah animasi selesai
                     }
                 }
             }
         }
     }
 
+    // Membuat ViewHolder baru untuk item RecyclerView
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TextViewHolder {
-        val view =
-            LayoutInflater.from(parent.context).inflate(R.layout.item_card_teks, parent, false)
+        val view = LayoutInflater.from(parent.context)
+            .inflate(R.layout.item_card_teks, parent, false)
         return TextViewHolder(view)
     }
 
+    // Mengikat data ke ViewHolder
     override fun onBindViewHolder(holder: TextViewHolder, position: Int) {
         val (textOn, textOff) = items[position]
         holder.cardTeksOn.text = textOn
         holder.cardTeksOff.text = textOff
 
-        // Set initial visibility
+        // Mengatur visibilitas awal dari cardTeksOff
         holder.cardTeksOff.visibility = if (textOff.isEmpty()) View.GONE else View.GONE
 
-        // Get SharedPreferences for font size settings
+        // Mengambil pengaturan ukuran font dari SharedPreferences
         val sharedPreferences: SharedPreferences =
             context.getSharedPreferences("AppSettings", Context.MODE_PRIVATE)
-        val fontSizeLatin =
-            sharedPreferences.getInt("FontSizeLatin", 16) // Default size for Latin text
-        val fontSizeArabic =
-            sharedPreferences.getInt("FontSizeArabic", 30) // Default size for Arabic text
+        val fontSizeLatin = sharedPreferences.getInt("FontSizeLatin", 16)
+        val fontSizeArabic = sharedPreferences.getInt("FontSizeArabic", 30)
 
-        // Detect language and set font size accordingly
-        holder.cardTeksOn.textSize =
-            if (isArabicText(textOn)) fontSizeArabic.toFloat() else fontSizeLatin.toFloat()
-        holder.cardTeksOff.textSize =
-            if (isArabicText(textOff)) fontSizeArabic.toFloat() else fontSizeLatin.toFloat()
+        // Mengatur ukuran font berdasarkan bahasa teks
+        holder.cardTeksOn.textSize = getFontSize(textOn, fontSizeLatin, fontSizeArabic)
+        holder.cardTeksOff.textSize = getFontSize(textOff, fontSizeLatin, fontSizeArabic)
 
-        // Check if textOn contains the special character (۞)
-        if (textOn.contains("۞")) {
-            // Change background color if condition is met
-            holder.cardTeksOn.setBackgroundResource(R.drawable.latarpenanda)
-            holder.cardTeksOff.setBackgroundResource(R.drawable.latarpenanda)
-        } else {
-            // Set a default background color if the condition is not met
-            holder.cardTeksOn.setBackgroundColor(
-                ContextCompat.getColor(
-                    holder.itemView.context, R.color.transparent
-                )
-            )
-            holder.cardTeksOff.setBackgroundColor(
-                ContextCompat.getColor(
-                    holder.itemView.context, R.color.transparent
-                )
-            )
-        }
+        // Mengatur latar belakang berdasarkan karakter khusus
+        setBackgroundBasedOnCharacter(holder, textOn)
     }
 
+    // Mengembalikan jumlah item dalam adapter
     override fun getItemCount(): Int = items.size
 
-    // Function to check if the text is in Arabic
+    // Fungsi untuk memeriksa apakah teks berbahasa Arab
     private fun isArabicText(text: String): Boolean {
         val arabicRegex = Regex("[\\u0600-\\u06FF]")
         return arabicRegex.containsMatchIn(text)
+    }
+
+    // Fungsi untuk mendapatkan ukuran font berdasarkan bahasa teks
+    private fun getFontSize(text: String, fontSizeLatin: Int, fontSizeArabic: Int): Float {
+        return if (isArabicText(text)) fontSizeArabic.toFloat() else fontSizeLatin.toFloat()
+    }
+
+    // Fungsi untuk mengatur latar belakang berdasarkan karakter khusus
+    private fun setBackgroundBasedOnCharacter(holder: TextViewHolder, textOn: String) {
+        val backgroundResource = if (textOn.contains("۞")) {
+            R.drawable.latarpenanda  // Menggunakan gambar latar khusus
+        } else {
+            R.color.transparent  // Latar belakang transparan jika tidak ada karakter khusus
+        }
+        holder.cardTeksOn.setBackgroundResource(backgroundResource)
+        holder.cardTeksOff.setBackgroundResource(backgroundResource)
     }
 }

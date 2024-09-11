@@ -276,6 +276,21 @@
         "no": "10",
         "textOn": "Tebeguru ngaji le' Nahdaltul Banat\nAgen nde' nyesel era' le' akhirat.",
         "textOff": "Belajar mengaji di Nahdlatul Banat\nAgar tak menyesal kelak di akhirat"
+      },
+      {
+        "no": "11",
+        "textOn": "نِلْنَا الْعُلَانِلْنَا اكَرَامَةْ *\nآلَنَاالْمُشَفَّعْ يَوْمَ الْقِيَامَةْ",
+        "textOff": ""
+      },
+      {
+        "no": "12",
+        "textOn": "إِنَّ لَنَا خَيْرَالْاَنَامْ *\nسُدْنَا عَلَى حَيْرِ الْمَقَامْ",
+        "textOff": ""
+      },
+      {
+        "no": "13",
+        "textOn": "وَبِالْعَزَائِمْ *\nبالْجِدِّ الدَّائِمْ",
+        "textOff": ""
       }
     ],
     "audioFileName": "sakit_jahil"
@@ -342,18 +357,34 @@
     "audioFileName": "ahlan"
   },
   {
-    "title": "Mars Ma’had\n(Ma’had darul qur’an...)",
+    "title": "Mars Hultah NWDI\n(Kini telah tiba saatnya...)",
     "descriptionItems": [
       {
-        "textOn": "",
+        "textOn": "Kini telah tiba saatnya\nHULTAH NWDI nan jaya\nDengan izin Yang Maha Kuasa\nKita dapat merayakannya",
         "textOff": ""
       },
       {
-        "textOn": "Ma’had darul qur’an wal hadis yang mulia \nGenap….tahun sudah usianya \nSemoga perguruan tinggi ma’had tercinta \nDiridoi Allah SWT abadi sepanjang masa \nMa’had penyebar ilmu dan hukum syari’at \nPenyubur makmur iman taqwa yang sehat \nMa’had pembimbing umat dan masyarakat \nMenuju kebahagiaan dunia dan akhirat \nMa’had pencetak kader ulama’ kiyai \nKader muballig yang terampil dan brbudi \nMa’had bukan tempat mengejar pangkat & kursi \nMa’had tempat menuntut ilmu robbul izzati \nMa’had banyak masuk di madrasah solatiah \nMadrasah tertua di tanah suci makkah \nBanyakl berhasil jadi ulama’ syari’ah \nMenjadi penegak ahlussunnah waljama’ah \nKalao sudah mendapat ijazah ma’had \nJangan banggakan ijazah kertas mengkilat \nBerusaha lagi agar sampai mendapat \nIjazah termulia ijazah masyarkat \n",
+        "textOn": "...... tahun usianya\nDi tanah Selaparang lahirnya\nBerjuang dengan bukti nyata\nMembina ummat beragama",
+        "textOff": ""
+      },
+      {
+        "textOn": "Mari sambut bersama Hari yang sangat mulia\nHultah NWDI yang tercinta  2 X\nDengan syukur yang tiada terhingga\nSerta dengan kesucian jiwa   2 X",
+        "textOff": ""
+      },
+      {
+        "textOn": "Nahdlatul Wathan berhaluan\nIslam Ahlussunnah waljamaah\nSerta mengambil ketentuan\n‘Ala Madzhabisysyafi’iyah",
+        "textOff": ""
+      },
+      {
+        "textOn": "Hamzanwadi Pencipta Hamzanwadi pembina\nPutra Selaparang semangat baja 2 X\nHarus dikenang jasa amalnya\nPesan wasiat jangan dilupa 2 X",
+        "textOff": ""
+      },
+      {
+        "textOn": "Mari kita sama berdoa\nkehadirat yang maha kuasa\nSemoga dengan limpah kurnianya\nNWDI daaiman abada",
         "textOff": ""
       }
     ],
-    "audioFileName": "musik5"
+    "audioFileName": "mars_hultah"
   },
   {
     "title": "Tanawwaro\n(تنور محفلنا فبدا )",
@@ -430,44 +461,39 @@
     "title": "Bersatu Haluwan\n(امامنا الشافعى)",
     "descriptionItems": [
       {
-        "no": "0",
-        "textOn": "",
-        "textOff": ""
-      },
-      {
         "no": "1",
-        "textOn": "امامنا الشافعى",
-        "textOff": ""
+        "textOn": "۞ إِمَامُنَا الشَّافِعِى ۞",
+        "textOff": "lkutan kita adalah Imam Asy-Syafi'i"
       },
       {
         "no": "2",
-        "textOn": "امامنا الشافعى * \nديننا الرافعى",
-        "textOff": ""
+        "textOn": "إِمَامُنَا الشَّافِعِى *\nدِيْنُنَا الرَّافِعِى",
+        "textOff": "lkutan kita adalah Imam Asy-Syafi'i *\nDalam syariat agama\n(fiqih) Imam Rafi'i"
       },
       {
         "no": "3",
-        "textOn": "شيخنا النواوى * \nفقيهنا ابن حجر",
-        "textOff": ""
+        "textOn": "شَيْخُنَا النَّوَوِى *\nفَقِيْهُنَا ابْنُ حَجَرْ",
+        "textOff": "Syaikh kita adalah imam Nawawi * \nAhli Fiqih kita adalah\nImam Ibnu Hajar"
       },
       {
         "no": "4",
-        "textOn": "فاقتدوا بالسنن *\nواعملوا بالحسن",
-        "textOff": ""
+        "textOn": "فَاقْتَدُوْا بِالسُّنَنْ *\nوَاعْمَلُوْا بِالْحَسَنْ",
+        "textOff": "Maka ikutilah jalan-jalan mereka wahai Warga Nahdlatul Wathan *\nBeramallah senantiasa dengan kebaikan"
       },
       {
         "no": "5",
-        "textOn": "وحفظوا بالمنن * \nفى مداء الزمن",
-        "textOff": ""
+        "textOn": "وَفُزُوْا بِالْمِنَنْ *\nفِى مَدَاءِ الزَّمَنْ",
+        "textOff": "Niscaya kalian akan selamat dalam perjalanan *\nSepanjang waktu dan zaman"
       },
       {
         "no": "6",
-        "textOn": "شمسنا والعالم * \nديننا والفتن",
-        "textOff": ""
+        "textOn": "شَمْسُنَا وَالْعَلَنْ *\nدِيْنُنَا وَالْفِتَنْ",
+        "textOff": "Baik ketika siang ataupun malam keramaian pun dalam\nkesendirian *\nDalam urusan agama juga keduniawian"
       },
       {
         "no": "7",
-        "textOn": "كلنا للسنن * \nكلنا للسن",
-        "textOff": ""
+        "textOn": "كُلُّنَآ لِلسُّنَنْ",
+        "textOff": "Kita semua semoga senantiasa dalam sunnah Rasul\njunjungan"
       },
       {
         "no": "8",
@@ -487,7 +513,8 @@
       },
       {
         "no": "1",
-        "textOn": "Kami benihan Nahdlatul Wathan yang setia\nMengorbankan jiwa membela Nusa dan Bangsa\nAgar umat seluruh bersatu raga\nMarilah kita hindarkan pengaruhnya setan durhaka\nTeguhkan hati janganlah mundur\nWalau setapak kaki….\n\nSerta tulus ikhlas kepada Tuhan\nJangan tingggi karena puji\nMari kita lenyapkan\nAgar Nahdlatul Wathan yang perwira\nHidup makmur serta jaya\nDalam aman sentosa 2X"
+        "textOn": "Kami benihan Nahdlatul Wathan yang setia\nMengorbankan jiwa membela Nusa dan Bangsa\nAgar umat seluruh bersatu raga\nMarilah kita hindarkan pengaruhnya setan durhaka\nTeguhkan hati janganlah mundur\nWalau setapak kaki….\n\nSerta tulus ikhlas kepada Tuhan\nJangan tingggi karena puji\nMari kita lenyapkan\nAgar Nahdlatul Wathan yang perwira\nHidup makmur serta jaya\nDalam aman sentosa 2X",
+        "textOff": ""
       }
     ],
     "audioFileName": "kami_benihan"
@@ -524,77 +551,77 @@
     "descriptionItems": [
       {
         "no": "0",
-        "textOn": "۞ يا من يروم العلى ۞",
+        "textOn": "۞ يَا مَنْ يَرُوْمُ الْعُلَا ۞",
         "textOff": "Hai orang yang menginginkan ketinggian"
       },
       {
         "no": "1",
-        "textOn": "يا من يروم العلا دنيا و في اخرة * \nاطلب فنون العلوم في مدى الزمن",
+        "textOn": "يَا مَنْ يَرُوْمُ الْعُلَا دُنُيَا وَفِى آخِرَةْ * \nاُطْلُبْ فُنُوْنَ الْعُلُومِ فِى مَدَى الزَّمَنِ",
         "textOff": "Hai orang yang menginginkan ketinggian dunia dan akhirat *\nTuntutlah semua disiplin ilmu sepanjang zaman !"
       },
       {
         "no": "2",
-        "textOn": "اطلب بجد ولا تكسل ولا تهن * \nان العلوم تكون احسن السفن",
+        "textOn": "اُطْلُبْ بِجِدٍّ وَلَا تَكْسَلْ وَلَا تَهِنِ *\nإِنَّ الْعُلُوْمَ تَكُوْنُ أَخْسَنَ السُّفُنِ",
         "textOff": "Tuntutlah dengan sunguh-sungguh Jangan malas dan jangan lemah *\nSesungguhnya ilmu-ilmu itu menjadi sebaik-baik perahu"
       },
       {
         "no": "3",
-        "textOn": "اخا العلا لا يتم العلم الا اذا * \nطلبته مخلصا بنهضة الوطن",
+        "textOn": "أَخَا الْعُلَا لَا يَتِمُّ الْعِلْمُ إِلَّا إِذَا *\nطَلَبْتَهُ مُخْلِصًا بِنَهْضَةِ الْوَطَنِ",
         "textOff": "Saudaraku… Ilmumu tidak akan sempurna, kecuali apabila kamu menuntutnya dengan ikhlas di Nahdlatul Wathan"
       },
       {
         "no": "4",
-        "textOn": "فانها اقدم مدارس الوطن * \nفيها الاساتيذة الاكفا ذوا الفطن",
+        "textOn": "فَإِنَّهَا أَقْدَمُ مَدَارِسِ الْوَطَنِ *\nفِيْهَا الْأَسَاتِيْذَةُ الْأَكْفَا ذَوُوْ فَطَنِ",
         "textOff": "Karena sesungguhnya Madrasah itu adalah Madrasah yang terdahulu yang ada di negeri ini *\nDi sana ada guru-guru yang qualified yang memiliki kecerdasan"
       },
       {
         "no": "5",
-        "textOn": "فيها العلوم كذا مكارم الخلق * \nوقد تخرج فيها انجم الوطن",
+        "textOn": "فِيْهَا الْعُلُوْمُ كَذَا مَكَارِمُ الْخُلُقِ *\nوَقَدْ تَخَرَّجَ مِنْهَا أَنْجُمُ الْوَطَنِ",
         "textOff": "Di sana ada berbagai macam ilmu, Begitu juga kemulian akhlak *\nSungguh telah keluar dari Madrasah itu bintang-bintang tanah air"
       },
       {
         "no": "6",
-        "textOn": "فيها الشريعة والحقيقة الحسنة * \nفيها طريقتنا من اعظم المنن",
+        "textOn": "فِيْهَا الشَّرِيْعَةُ وَالْحَقِيْقَةُ الْحَسَنَةْ *\nفِيْهَا طَرِيْقَتُنَا مِنْ أَعْظَمِ الْمِنَنِ",
         "textOff": "Di Madrasah itu ada SYARIAT & HAKIKAT yang baik \nDi sana ada THARIKAT kita yang merupakan pemberian yg paling luar biasa"
       },
       {
         "no": "7",
-        "textOn": "والنحو والصرف والفقه الاصول الفلك * \nمع البلاغة والتفسير والسنن",
+        "textOn": "وَالنَّحْوُ وَالصَّرْفُ وَالْفِتْهُ الْأُصُوْلُ الْفَلَكْ *\nمَعَ الْبَلَاغَةِ وَالتَّفْسِيْرِ وَالسُّنَنِ",
         "textOff": "Dan NAHWU, SHARF, FIQH, USHUL, FALAK Bersama BALAGOH, TAFSIR dan SUNNAH"
       },
       {
         "no": "8",
-        "textOn": "فيها اللغات مع الحساب والهندسة * \nوالجبر والكيمياجغرافيا الوطن",
+        "textOn": "فِيْهَا الُّلغَاتُ مَعَ الْحِسَابِ وَالْهَنْدَسَةْ *\nوَالْجَبْرُ وَالْكِمِيَا جُغْرَافِيَا الْوَطَنِ",
         "textOff": "Di sana ada BAHASA-BAHASA bersama MATEMATIKA, HISAB dan TEHNIK Dan AL-JABAR, KIMIA, GEOGRAFI untuk tanah air"
       },
       {
         "no": "9",
-        "textOn": "واعلم اخي اننا في زمن الفتن * \nحتى يروا حسنا ما ليس بالحسن ",
+        "textOn": "وَاعْلَمْ أَخِيْ أَنَّنَا فِى زَمَنِ الْفِتَنِ *\nحَتَّى يَرَوْا حَسَنًا مَا لَيْسَ بِالْحَسَنِ",
         "textOff": "Dan ketahuilah saudaraku… Sesungguhnya kita berada pada zaman fitnah \nSampai kelihatan yang baik padahal itu bukan kebaikan"
       },
       {
         "no": "10",
-        "textOn": "والجهل في الناس قد فشى فاطم وعم * \nحتى على فوق زروة الجبل رنجاني ",
+        "textOn": "وَالْجَهْلُ فِى النَّاسِ قَدْ فَشَا وَطَمَّ وَعَمْ *\nحَتَّى عَلَى فَوْقَ ذِرْوَةِ الْجَبَلْ رِنْجَانِى",
         "textOff": "Dan kebodohan pada manusia sudah tersebar banyak dan merata \nSampai pada ketinggian Puncak Gunung Rinjani"
       },
       {
         "no": "11",
-        "textOn": "فكل من فسر القران مع جهله * \nبالنحو والصرف انه ابو الفتن ",
+        "textOn": "فَكُلُّ مَنْ فَسَّرَ الْقُرْآنَ مَعْ جَهْلِهِ *\nبِا لنَّحْوِ وَالصَّرْفِ أَنَّهُ أَبُو الْفِتَنِ",
         "textOff": "Setiap orang yang menafsirkan Al-Qur’an bersama kebodohannya \nDengan NAHWU dan SHARF, maka dialah bapak pembuat fitnah"
       },
       {
         "no": "12",
-        "textOn": "واتخذوا الروؤساء الجهل  والفسقة * \nفنشروا فتنة الدجال في المدن",
+        "textOn": "وَاتَّخَذُوْا الرُّؤَسَا الْجُهَّالَ وَالْفَسَقَةْ *\nفَنَشَرُوْا فِتْنَةَ الدَّجَّالِ فِى الْمُدُنِ",
         "textOff": "Mereka menjadikan orang-orang bodoh dan fasik sebagai pemimpin \nMaka mereka menyebarkan fitnah Dajjal di semua kota"
       },
       {
         "no": "13",
-        "textOn": "الله يعصمنا من شرهم ابدا * \nوالله يعلم المفسد من المحسن ",
+        "textOn": "فَا اللهُ يَعْصِمُنَا مِنْ شَرِّهِمْ أَبَدًا *\nوَاللهُ يَعْلَمُ مُفْسِدًا مِنَ الْمُحْسِنِ",
         "textOff": "Semoga Allah menjaga kita dari kejelekan mereka selamanya \nDan Allah mengetahui orang yang jelek dari orang yang baik"
       },
       {
         "no": "14",
-        "textOn": "فاطلب هداية مولانا العلي ابدا * \nوالزم قرائة حزب نهضة الوطن",
+        "textOn": "فَاطْلُبْ هِدَايَةَ مَوْلَانَا الْعَليْ أَبَدًا *\nوَالْزِمْ قِرَاءَةَ حِزْبِ نَهْضَةِ الْوَطَنِ",
         "textOff": "Maka carilah petunjuk Tuhan kita yang tinggi selamanya \nDan senantiasalah membaca HIZIB NAHDLATUL WATHAN"
       }
     ],
@@ -1823,77 +1850,77 @@
       },
       {
         "No": "2",
-        "textOn": "رَ بَّنَا ا نْفَعْنَا ِبمَا عَلَّمْتَنَا *\nرَبِّ عَلِّمْنَا الَّذِي يَنْفَعُنَا",
+        "textOn": "رَبَّنَا انْفَعْـنَا بِمَاعَلَّمْـتَـنَا   * \nرَبِّ عَـلِّـمْـنَا الَّذِيْ يَنْـفَـعُـنَا",
         "textOff": "Ya Allah, berilah kami manfaat apa yang Engkau ajari *\nYa Allah ajarilah kami apa yang bermanfaat bagi kami"
       },
       {
         "No": "3",
-        "textOn": "رَبِّ فَقِّهْنَا وَفَقِّهْ اَهْلَنَا * \nوَقَرَابَاتِ لِّنَا فِى دِيْنِنَا",
+        "textOn": "رَبِّ فَـقِّهْنَا وَفَـقِّهْ أَهْلَـنَا   * \nوَقَـرَابَاتٍ لَـنَا فِى دِيْـنِـنَا",
         "textOff": "Ya Allah, Jadikanlah kami memahami (ilmu pengetahuan) agama, *\ndan juga keluarga sahabat dan\nkarib kami semua"
       },
       {
         "No": "4",
-        "textOn": "مَعَ اَهْلِ الْقَطْرِ اُنْثَى وَذَكَرْ",
+        "textOn": "مَعَ أَهْلِ الْقُطْرِ اُنْثٰى وَذَكَرْ",
         "textOff": "Serta penduduk bumi laki dan perempuan"
       },
       {
         "No": "5",
-        "textOn": "رَبِّ وَفِقْنَا وَوَفِقْهُمْ لِمَا *\nتَرْتَضِ قَوْ لاً وَفِعْلاً كَرَمَا",
+        "textOn": "رَبِّ وَفِّقْـنَا وَوَفِّـقْهُمْ لِمَـا   *\nتَرْتَضِيْ قَـوْلاً وَفِـعْلًا كَـرَمَا",
         "textOff": "Ya Allah, berilah taufiq kepada kami dan mereka semuanya * \nUntuk melaksanakan apa-apa yang Engkau ridlai baik ucapan maupun perbuatan"
       },
       {
         "No": "6",
-        "textOn": "وَارْزُقِ الْكُلَّ حَلاَلاً دَاءِمًا *\nوَاَخِلاَّ اَتْقِيَاءَ عُلَمَا",
+        "textOn": "وَارْزُقِ الْكُلَّ حَلَالًادَائِـمًا   *\nوَأَخِـلَّا أَتْـقِـيَا عُـلَـمَا",
         "textOff": "dengan kemurahan-Mu anugerahilah kami semua rezeki yang halal selamanya *\ndan teman-teman setia yang takwa dan alim ulama'"
       },
       {
         "No": "7",
-        "textOn": "نَحْظَ بِاا ْلخَيْرِ وَنُكْفَ كُلَّ شَرْ",
+        "textOn": "نَحْظَ بِالْخَيْرِوَنُكْفَ كُلَّ شَرْ",
         "textOff": "agar kami memperoleh kebaikan dan terhindar dari bencana"
       },
       {
         "No": "8",
-        "textOn": "رَبَّنَا اَصْلِحْ لَناَ كُلَّ الشُّؤُنْ *\nوَاَقِرَّ باِا لرِّضَا مِنْكَ الْعُيُوْنَ",
+        "textOn": "رَبَّنَا أَصْلِحْ لَـنَاكُلَّ الشُّـؤُن   *\nوَأَقِرَّ بِالرِّضَـامِنْكَ الْعُـيُوْنَ",
         "textOff": "Ya Allah, perbaikilah hal ihwal dan tingkah laku kami semuanya * \ndan bahagiakanlah kami dengan keridlaanMu"
       },
       {
         "No": "9",
-        "textOn": "وَاقْضِ عَنَّا رَبنَّاَ كُلَّ الدُّيُوْنَ  *\nقَبْلَ اَنْ تاَ تِيَنَا رُسْلُ المْنَوْنَ",
+        "textOn": "وَاقْـضِ عَنَّا رَبَّــنَا كُلَّ الدُّيُـوْن   *\nقَـبْلَ أَنْ تَأْتِيَـنَا رُسْلُ الْمَـنُـوْن",
         "textOff": "Ya Allah, bayarkan semua hutang kami *\nSebelum Malakul Maut datang menjemput kami"
       },
       {
         "No": "10",
-        "textOn": "وَاغْفِرِ اسْتُرْ اَنْتَ اَكْرَمْ مَنْ سَتَرْ",
+        "textOn": "وَاغْفِرِ اسْتُرْ أَنْتَ أَكْرَمْ مَنْ سَتَرْ",
         "textOff": "Ampunilah dosa kesalahan kami dan sembunyikan cacat cela kami Engkaulah semulia-mulia yang menutup"
       },
       {
         "No": "11",
-        "textOn": "رَبَنَا يَاذَالْجَلاَ لِ وَالْمِنَنِ *\nاُنْشُرَنْ لِوَاءَ نَهْضَةِ الْوَطَنِ",
+        "textOn": "رَبَّـنَايَاذَا الْـجَـلَالِ وَالْمِـنَنِ    *\nاُنْشُرَنْ لِوَاءَ نَهْـضَـةِ الْوَطَـنِ",
         "textOff": "Ya Allah, Yang Maha Agung dan Maha Pemurah * \nSebar-luaskan panji-panji Nahdlatul Wathan"
       },
       {
         "No": "12",
-        "textOn": "وَاحْفَظَنْهَا دَاءِماً مِنَ الْفِتَنِ *\nوَاهْدِيَنْ رِجَالَهَا عَلَىَ السُّنَنْ (ثلاث مرات)",
+        "textOn": "وَاحْفَظَنْهَادَائِـمًامِنَ الْفِـتَنِ    *\nوَاهْدِيَـنْ رِجَالَهَاعَـلَى السُّـنَنْ",
         "textOff": "Peliharalah ia selamanya dari fitnah *\nAnugerahilah pemimpin-pemimpinnya hidayah untuk mengikuti sunnah"
       },
       {
         "No": "13",
-        "textOn": "وَانْصُرَنْهُمْ فِلْعَشَا يَا وَالْبُكَرْ",
+        "textOn": "وَانْصُرَنْهُمْ فِى الْعَشَايَا وَالْبُكَرْ",
         "textOff": "Tolonglah mereka sepanjang hari siang dan malam"
       },
       {
         "No": "14",
-        "textOn": "وَصَلا ةُ اللهِ تَغْشَي الْمُصْطَفَى *\nمَنْ اِلَى الْحَقِّ دَعَا نَا وَالْوَفَا",
+        "textOn": "وَصَلَاةُ اللهِ تَغْــشَى الْمُصْـطَفٰى  *\nمَنْ إِلَى الْـحَـقِّ دَعَانَا وَالْوَفَا",
         "textOff": "Rahmat Allah semoga tetap menyelimuti Al-Mushthafa Rasul * \nyang mengajak kami kepada kebenaran dan kesetiaan"
       },
       {
         "No": "15",
-        "textOn": "بِكِتَابٍ فِيْهِ لِلنَّاسِ شِفَا *\nوَعَلَى الْاَ لِ الْكِرَامِ الشَّرَفَا",
+        "textOn": "بِكِتَابٍ فِيْـهِ لِلـنَّاسِ شِـفَا   *\nوَعَلَى اْلأٰلِ الْكِـرَامِ الشُّـرَفَا",
         "textOff": "dengan berlandaskan kitab suci Al Qur'an di dalamnya ada obat penawar bagi bani insan * \njuga semoga rahmat Allah tetap menyelimuti semua keluarga yang mulia"
       },
       {
         "No": "16",
-        "textOn": "وَعَلَى الصَّحْبِالْمَصَا بِيْحِ الْغُرَرِ",
+        "textOn": "وَعَلَى الصَّحْبِ الْمَصَابِيْحِ الْغُرَرِ",
         "textOff": "Dan para sahabat yang seperti pelita bersinar terang benderang"
       },
       {
@@ -1903,12 +1930,12 @@
       },
       {
         "No": "18",
-        "textOn": "أَمْرَرْتُ كَفَّا سَبَّحَتْ فِيهَا الْحَصَى * \nوَأَرْوَتِ الْجَيْشَ بِمَاءٍ هَامِرِ",
+        "textOn": "أَمْرَرْتُ كَفًّاسَبَّـحَتْ فِيْـهَاالْحَصٰى   *\nوَأَرْوَتِ الْـجَـيْـشَ بِـمَاءٍهَامِرِ  ",
         "textOff": "Aku usapkan telapak tangan Junjungan Alam telapak tangan yang bertasbih padanya batu-batuan * \ndan memuaskan dahaga bala tentara yang kehausan dengan air bening yang memancar berhamburan"
       },
       {
         "No": "19",
-        "textOn": "عَلَى مَعَاشِي وَمَعَادِي وَعَلَى * \nذُرِّيَّتِي وَبَاطِنِي وَظَاهِرِي",
+        "textOn": "عَلٰى مَـعَاشِى وَمَـعَـادِى وَعَلٰى  *\nذُرِّيَّتِي وَبَاطِـنِى وَظَاهِـرِى  ",
         "textOff": "Ku usapkan telapak tangan itu di atas taman kehidupanku di atas mahligai akhiratku * \ndi atas zurriyat, keturunanku di atas lubuk-lubuk bathinku dan di atas pilar-pilar zahirku"
       },
       {

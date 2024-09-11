@@ -9,6 +9,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_listitem"
         style="@style/toolbar_global"
+        app:titleTextColor="@color/color_selector_h_w"
         android:layout_width="match_parent"
         app:title="@string/toolbar_lagu">
 
@@ -23,7 +24,8 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view_lagu"
+        android:id="@+id/recycler_view_daftar"
+        android:background="@drawable/color_selector_mode"
         style="@style/scroll_bar" />
 
 </LinearLayout>
