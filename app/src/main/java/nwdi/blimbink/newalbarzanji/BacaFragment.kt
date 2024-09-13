@@ -73,8 +73,8 @@ class BacaFragment : Fragment() {
             "Sholawat Fatih\n( صَلاَةُ الْفَاتِحِ )",
             "Al - Barzanji\n( اَلْجَنَّةُ وَ نَعِيْمُهَا )",
             "Tholaal Badru ‘Alaina\n( طَلَعَ الْبَدْرُ عَلَيْنَا )",
-            "Sholawat Badriah\n( صَـلاَ ةُ اللهِ سَـلاَ مُ الله )",
             "Iilahitam\n( اِلٰهِىْ تَمِّمِ النَّعْمَآ عَلَيْنَا )",
+            "Sholawat Badriah\n( صَـلاَ ةُ اللهِ سَـلاَ مُ الله )",
             "Do’a Do’a\n( صَلِّ وَسَلِّمْ عَلَى النَّبِيِّ )"
         )
 

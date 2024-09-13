@@ -49,16 +49,16 @@ class DaftarIsiFragment : Fragment() {
         // Daftar item daftar isi yang akan ditampilkan
         originalItems = listOf(
             "Qiroatul Fatihah\n( قِرَاءَةُ الْفَاتِحَة )",
-            "Surah YaaSin\n( يٰسٓ )",
+            "Sholawat Nahdlatain\n( اَللَّهُمَّ إِنَّا نَسْأَلُكَ بِك )",
             "Sholawat Fatih\n( صَلاَةُ الْفَاتِحِ )",
             "Al - Barzanji\n( اَلْجَنَّةُ وَ نَعِيْمُهَا )",
             "Tholaal Badru ‘Alaina\n( طَلَعَ الْبَدْرُ عَلَيْنَا )",
             "Iilahitam\n( اِلٰهِىْ تَمِّمِ النَّعْمَآ عَلَيْنَا )",
             "Sholawat Badriah\n( صَـلاَ ةُ اللهِ سَـلاَ مُ الله )",
-            "Sholawat Nahdlatain\n( اَللَّهُمَّ إِنَّا نَسْأَلُكَ بِك )",
+            "Do’a Do’a\n( صَلِّ وَسَلِّمْ عَلَى النَّبِيِّ )",
+            "Surah YaaSin\n( يٰسٓ )",
             "Lillahi Zainuddin\n( لِلّٰهِ زَيْنُ الـدِّيْـن )",
-            "Do’a Pusaka\n( رَ بَّنَا ا نْفَعْنَا ِبمَا عَلَّمْتَنَا )",
-            "Do’a Do’a\n( صَلِّ وَسَلِّمْ عَلَى النَّبِيِّ )"
+            "Do’a Pusaka\n( رَ بَّنَا ا نْفَعْنَا ِبمَا عَلَّمْتَنَا )"
         )
 
         // Inisialisasi adapter dengan data daftar isi dan listener untuk setiap item
